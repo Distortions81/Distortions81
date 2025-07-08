@@ -95,7 +95,7 @@ Seed viewer for Oxygen Not Included worlds using Ebiten. Loads generation data a
 ### 📦 [goXA](https://github.com/Distortions81/goXA)
 **Language:** Go | **Complexity:** Medium-Low
 
-Custom archiving utility with a compact format. Focuses on efficient file packing and easy CLI extraction for game assets.
+Custom archiving utility with a compact format.
 
 *Lines of Code:* ~5k
 
@@ -119,7 +119,7 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 ### 🏴‍☠️ [PixelPirates](https://github.com/Distortions81/PixelPirates)
 **Language:** Go | **Complexity:** Medium-Low
 
-Retro sailing and exploration with simple physics.
+Retro sailing and exploration prototype.
 
 [Play online](https://m45sci.xyz/u/dist/pixelpirate)
 *Lines of Code:* ~5.7k
