@@ -59,9 +59,9 @@ Attempts to recover blurred or pixelated text using brute-force comparison.
 ### [WebServerBrowser](https://github.com/M45-Science/WebServerBrowser)
 **Language:** Go | **Complexity:** Medium-Low
 
-[https://factorio.go-game.net/]
 Minimal server browser for Factorio with a web interface. Polls servers on a schedule, caches results, and serves a simple index page.
 
+[https://factorio.go-game.net/]
 *Lines of Code:* ~1.3k
 
 **Highlights:**
@@ -72,9 +72,9 @@ Minimal server browser for Factorio with a web interface. Polls servers on a sch
 ### [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
 **Language:** Go | **Complexity:** Medium
 
-[https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0]
 Seed viewer for Oxygen Not Included worlds using Ebiten. Loads generation data and renders an interactive map with detailed info.
 
+[https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0]
 *Lines of Code:* ~4.6k
 
 **Highlights:**
@@ -109,9 +109,9 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 ### [PixelPirates](https://github.com/Distortions81/PixelPirates)
 **Language:** Go | **Complexity:** Medium-Low
 
-[https://m45sci.xyz/u/dist/pixelpirate]
 Retro sailing and exploration with simple physics.
 
+[https://m45sci.xyz/u/dist/pixelpirate]
 *Lines of Code:* ~5.7k
 
 **Highlights:**
