@@ -9,19 +9,12 @@ Welcome to my GitHub profile! I enjoy building tools and prototypes that connect
 
 ---
 
-## 🚀 Skills
-- **Languages:** Go, Lua
-- **Frameworks/Libraries:** Ebiten, Factorio modding API, Discord API
-- **Concepts:** concurrency, real-time logging, procedural generation, CLI tooling, networking
-
----
-
-
 ## 🌟 Featured Projects
 A selection of repositories that showcase what I like to build.
 
 ### [ChatWire](https://github.com/M45-Science/ChatWire)
 **Language:** Go | **Complexity:** High
+
 A robust bridge between Discord and Factorio servers with detailed diagnostics. It syncs chat in real time, exposes remote commands, and manages server logs for quick issue tracking.
 
 *Lines of Code:* ~14k
@@ -46,6 +39,7 @@ A robust bridge between Discord and Factorio servers with detailed diagnostics. 
 
 ### [FactBanSync](https://github.com/M45-Science/FactBanSync)
 **Language:** Go | **Complexity:** Medium
+
 Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge tool and lightweight web API for centralized management.
 
 *Lines of Code:* ~1.6k
@@ -58,8 +52,7 @@ Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge to
 
 ### [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText)
 **Language:** Go | **Complexity:** Medium
-Attempts to recover blurred or pixelated text using brute-force comparison. Useful for OCR research with a small demo interface.
-
+Attempts to recover blurred or pixelated text using brute-force comparison.
 *Lines of Code:* ~330
 
 **Highlights:**
@@ -69,6 +62,7 @@ Attempts to recover blurred or pixelated text using brute-force comparison. Usef
 
 ### [WebServerBrowser](https://github.com/M45-Science/WebServerBrowser)
 **Language:** Go | **Complexity:** Medium-Low
+
 Minimal server browser for Factorio with a web interface. Polls servers on a schedule, caches results, and serves a simple index page.
 
 *Lines of Code:* ~1.3k
@@ -80,7 +74,8 @@ Minimal server browser for Factorio with a web interface. Polls servers on a sch
 
 ### [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
 **Language:** Go | **Complexity:** Medium
-Seed viewer for Oxygen Not Included worlds using Ebiten. Loads generation data and renders an interactive tile map with search and zoom.
+
+Seed viewer for Oxygen Not Included worlds using Ebiten. Loads generation data and renders an interactive map with detailed info.
 
 *Lines of Code:* ~4.6k
 
@@ -91,6 +86,7 @@ Seed viewer for Oxygen Not Included worlds using Ebiten. Loads generation data a
 
 ### [goXA](https://github.com/Distortions81/goXA)
 **Language:** Go | **Complexity:** Medium-Low
+
 Custom archiving utility with a compact format. Focuses on efficient file packing and easy CLI extraction for game assets.
 
 *Lines of Code:* ~5k
@@ -102,6 +98,7 @@ Custom archiving utility with a compact format. Focuses on efficient file packin
 
 ### [goMMO](https://github.com/Distortions81/goMMO)
 **Language:** Go | **Complexity:** Medium-Low
+
 Client-side MMO prototype demonstrating basic networking. Implements a small world simulation and WebSocket communication for testing.
 
 *Lines of Code:* ~3.9k
@@ -113,7 +110,8 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 
 ### [PixelPirates](https://github.com/Distortions81/PixelPirates)
 **Language:** Go | **Complexity:** Medium-Low
-Retro sailing and exploration with simple physics. Navigate procedurally generated seas, battle pirates, and collect treasure.
+
+Retro sailing and exploration with simple physics.
 
 *Lines of Code:* ~5.7k
 
@@ -124,7 +122,7 @@ Retro sailing and exploration with simple physics. Navigate procedurally generat
 
 ### [golang-frac](https://github.com/Distortions81/golang-frac)
 **Language:** Go | **Complexity:** Medium
-Fractal visualizer and generator with WebAssembly support. Allows tweaking fractal formulas in real time from the browser.
+Fractal visualizer and generator with WebAssembly support.
 
 *Lines of Code:* ~300
 
@@ -135,7 +133,7 @@ Fractal visualizer and generator with WebAssembly support. Allows tweaking fract
 
 ### [goMarketMadness](https://github.com/Distortions81/goMarketMadness)
 **Language:** Go | **Complexity:** Medium
-A tribute to a childhood economic sim with retro UI. Features a dynamic market loop and event-driven scenarios.
+A tribute to a childhood type-in economic sim.
 
 *Lines of Code:* ~1.8k
 
@@ -143,19 +141,6 @@ A tribute to a childhood economic sim with retro UI. Features a dynamic market l
 - Game loop and economic modeling
 - Event-driven simulation
 - Modular gameplay logic
-
-### [EUI](https://github.com/Distortions81/EUI)
-**Language:** Go | **Complexity:** Low
-Lightweight UI library for the Ebiten game engine. Offers basic widgets, layout management, and simple state handling.
-
-*Lines of Code:* ~1.4k
-
-**Highlights:**
-- UI widget abstraction
-- Component layout logic
-- Simple state management
-
----
 
 ## 📈 GitHub Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=Distortions81&show_icons=true&theme=dark)
