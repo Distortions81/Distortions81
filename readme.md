@@ -1,9 +1,5 @@
 # Hi, I'm Distortions81 👋
 
-<p align="center">
-  <img src="https://github.com/Distortions81/PixelPirates/blob/main/screenshots/1.png?raw=true" width="650" alt="PixelPirates screenshot"/>
-</p>
-
 Welcome to my GitHub profile! I enjoy building tools and prototypes that connect systems programming with game development. Most of my projects revolve around Factorio servers, automation tooling, and pixel art experiments.
 
 ### 🌐 Links
