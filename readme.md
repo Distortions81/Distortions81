@@ -20,6 +20,7 @@ Welcome to my GitHub profile! I enjoy building tools and prototypes that connect
 
 ---
 
+
 ## 🌟 Featured Projects
 A selection of repositories that showcase what I like to build.
 
@@ -38,7 +39,6 @@ A robust bridge between Discord and Factorio servers with detailed diagnostics. 
 
 ### [SoftMod](https://github.com/M45-Science/SoftMod)
 **Language:** Lua | **Complexity:** Medium-High
-Modular scripting framework for Factorio multiplayer scenarios. Provides event-based utilities, dynamic GUIs, and permission-controlled commands for large servers.
 
 *Lines of Code:* ~7.5k
 
