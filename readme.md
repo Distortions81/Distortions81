@@ -1,6 +1,6 @@
 # Hi, I'm Distortions81 👋
 
-Welcome to my GitHub profile! I enjoy building tools and prototypes that connect systems programming with game development. Most of my projects revolve around Factorio servers, automation tooling, and pixel art experiments.
+Welcome to my GitHub profile! I enjoy building tools and prototypes that connect systems programming with game development.
 
 ### 🌐 Links
 - [m45sci.xyz](https://m45sci.xyz)
@@ -15,7 +15,7 @@ A selection of repositories that showcase what I like to build.
 ### [ChatWire](https://github.com/M45-Science/ChatWire)
 **Language:** Go | **Complexity:** High
 
-A robust bridge between Discord and Factorio servers with detailed diagnostics. It syncs chat in real time, exposes remote commands, and manages server logs for quick issue tracking.
+A robust bridge between Discord and Factorio servers, manages servers and empowers moderators.
 
 *Lines of Code:* ~14k
 
@@ -42,6 +42,7 @@ A robust bridge between Discord and Factorio servers with detailed diagnostics. 
 
 Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge tool and lightweight web API for centralized management.
 
+[https://m45sci.xyz:8443/]
 *Lines of Code:* ~1.6k
 
 **Highlights:**
@@ -55,14 +56,10 @@ Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge to
 Attempts to recover blurred or pixelated text using brute-force comparison.
 *Lines of Code:* ~330
 
-**Highlights:**
-- Image pattern recognition
-- Brute-force algorithm design
-- Pixel-level accuracy
-
 ### [WebServerBrowser](https://github.com/M45-Science/WebServerBrowser)
 **Language:** Go | **Complexity:** Medium-Low
 
+[https://factorio.go-game.net/]
 Minimal server browser for Factorio with a web interface. Polls servers on a schedule, caches results, and serves a simple index page.
 
 *Lines of Code:* ~1.3k
@@ -75,6 +72,7 @@ Minimal server browser for Factorio with a web interface. Polls servers on a sch
 ### [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
 **Language:** Go | **Complexity:** Medium
 
+[https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0]
 Seed viewer for Oxygen Not Included worlds using Ebiten. Loads generation data and renders an interactive map with detailed info.
 
 *Lines of Code:* ~4.6k
@@ -111,6 +109,7 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 ### [PixelPirates](https://github.com/Distortions81/PixelPirates)
 **Language:** Go | **Complexity:** Medium-Low
 
+[https://m45sci.xyz/u/dist/pixelpirate]
 Retro sailing and exploration with simple physics.
 
 *Lines of Code:* ~5.7k
@@ -135,12 +134,16 @@ Fractal visualizer and generator with WebAssembly support.
 **Language:** Go | **Complexity:** Medium
 A tribute to a childhood type-in economic sim.
 
+[https://m45sci.xyz/u/dist/otto/marketmadness/]
 *Lines of Code:* ~1.8k
 
 **Highlights:**
 - Game loop and economic modeling
 - Event-driven simulation
 - Modular gameplay logic
+
+### Misc Projects:
+[https://m45sci.xyz/u/dist/]
 
 ## 📈 GitHub Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=Distortions81&show_icons=true&theme=dark)
