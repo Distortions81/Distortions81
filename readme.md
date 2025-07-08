@@ -10,8 +10,8 @@ Welcome to my GitHub profile! I enjoy building tools and prototypes that connect
 ---
 
 ## 🚀 Skills
-- **Languages:** Go, Lua, Python, JavaScript
-- **Frameworks/Libraries:** Ebiten, Node.js, Factorio modding API, Discord API
+- **Languages:** Go, Lua
+- **Frameworks/Libraries:** Ebiten, Factorio modding API, Discord API
 - **Concepts:** concurrency, real-time logging, procedural generation, CLI tooling, networking
 
 ---
