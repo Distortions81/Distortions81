@@ -87,7 +87,7 @@ Seed viewer for Oxygen Not Included worlds using Ebiten. Loads generation data a
 
 **Highlights:**
 - Game data parsing
-- Tile-based rendering with Ebiten
+- Rendering with Ebiten
 - Interactive seed exploration
 
 ### 📦 [goXA](https://github.com/Distortions81/goXA)
@@ -123,9 +123,7 @@ Retro sailing and exploration with simple physics.
 *Lines of Code:* ~5.7k
 
 **Highlights:**
-- Game physics (wind and navigation)
-- Tile world generation
-- Pixel-art rendering
+- Procedurally generated clouds.
 
 ### 🌀 [golang-frac](https://github.com/Distortions81/golang-frac)
 **Language:** Go | **Complexity:** Medium
