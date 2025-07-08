@@ -12,8 +12,8 @@ Welcome to my GitHub profile! I enjoy building tools and prototypes that connect
 
 
 ### 🌐 Links
-- [🌍 Personal Site](https://m45sci.xyz)
-- [🎮 Game Hosting](http://go-game.net)
+- [🌍 M45-Science](https://m45sci.xyz)
+- [🎮 go-game.net](http://go-game.net)
 - [📝 Blog Posts](https://carlotto81.wixsite.com/m45-science)
 ---
 
