@@ -6,7 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com/?lines=Systems+programming+meets+game+dev;Always+building+something+new!&center=true&width=440&height=35" alt="Typing SVG" />
 </p>
 
-# Hi, I'm Distortions81 👋
+# Hi, I'm Carl Otto 👋
 
 Welcome to my GitHub profile! I enjoy building tools and prototypes that connect systems programming with game development.
 
