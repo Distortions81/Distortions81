@@ -36,6 +36,31 @@ Active since 2017.
 - Discord bot development
 - Live logging and diagnostics
 
+### 👀 [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
+**Language:** Go | **Complexity:** Medium
+
+Seed viewer for Oxygen Not Included worlds using Ebiten. Loads generation data and renders an interactive map with detailed info.
+
+[Try it here](https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0)
+*Lines of Code:* ~4.6k
+
+**Highlights:**
+- Game data parsing
+- Rendering with Ebiten
+- Interactive seed exploration
+
+### 📦 [goXA](https://github.com/Distortions81/goXA)
+**Language:** Go | **Complexity:** Medium-Low
+
+Custom archiving utility with a compact format.
+
+*Lines of Code:* ~5k
+
+**Highlights:**
+- File I/O in Go
+- Custom archive structure
+- CLI packaging and unpacking
+
 ### 🛠️ [SoftMod](https://github.com/M45-Science/SoftMod)
 **Language:** Lua | **Complexity:** Medium-High
 
@@ -46,6 +71,30 @@ Active since 2017.
 - Stateful multiplayer tools
 - Dynamic GUI generation
 - Permission-based commands
+
+### 🏴‍☠️ [PixelPirates](https://github.com/Distortions81/PixelPirates)
+**Language:** Go | **Complexity:** Medium-Low
+
+Retro sailing and exploration prototype.
+
+[Play online](https://m45sci.xyz/u/dist/pixelpirate)
+*Lines of Code:* ~5.7k
+
+**Highlights:**
+- Procedurally generated clouds.
+- Custom real time music synthesizer.
+
+### 🕹️ [goMMO](https://github.com/Distortions81/goMMO)
+**Language:** Go | **Complexity:** Medium-Low
+
+Client-side MMO prototype demonstrating basic networking. Implements a small world simulation and WebSocket communication for testing.
+
+*Lines of Code:* ~3.9k
+
+**Highlights:**
+- WebSocket networking
+- Client-server communication
+- Minimal game engine
 
 ### 🚫 [FactBanSync](https://github.com/M45-Science/FactBanSync)
 **Language:** Go | **Complexity:** Medium
@@ -78,54 +127,6 @@ Minimal server browser for Factorio with a web interface. Polls servers on a sch
 - RESTful HTTP handling
 - Server polling and caching
 - Front-end/back-end integration
-
-### 👀 [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
-**Language:** Go | **Complexity:** Medium
-
-Seed viewer for Oxygen Not Included worlds using Ebiten. Loads generation data and renders an interactive map with detailed info.
-
-[Try it here](https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0)
-*Lines of Code:* ~4.6k
-
-**Highlights:**
-- Game data parsing
-- Rendering with Ebiten
-- Interactive seed exploration
-
-### 📦 [goXA](https://github.com/Distortions81/goXA)
-**Language:** Go | **Complexity:** Medium-Low
-
-Custom archiving utility with a compact format.
-
-*Lines of Code:* ~5k
-
-**Highlights:**
-- File I/O in Go
-- Custom archive structure
-- CLI packaging and unpacking
-
-### 🕹️ [goMMO](https://github.com/Distortions81/goMMO)
-**Language:** Go | **Complexity:** Medium-Low
-
-Client-side MMO prototype demonstrating basic networking. Implements a small world simulation and WebSocket communication for testing.
-
-*Lines of Code:* ~3.9k
-
-**Highlights:**
-- WebSocket networking
-- Client-server communication
-- Minimal game engine
-
-### 🏴‍☠️ [PixelPirates](https://github.com/Distortions81/PixelPirates)
-**Language:** Go | **Complexity:** Medium-Low
-
-Retro sailing and exploration prototype.
-
-[Play online](https://m45sci.xyz/u/dist/pixelpirate)
-*Lines of Code:* ~5.7k
-
-**Highlights:**
-- Procedurally generated clouds.
 
 ### 🌀 [golang-frac](https://github.com/Distortions81/golang-frac)
 **Language:** Go | **Complexity:** Medium
