@@ -24,7 +24,7 @@ A selection of repositories that showcase what I like to build.
 **Language:** Go | **Complexity:** High
 
 A robust bridge between Discord and Factorio servers, manages servers and empowers moderators.
-A part of [M45-Science](https://github.com/M45-Science) github organization [Website](https://m45sci.xyz/).
+A part of [M45-Science](https://github.com/M45-Science) github organization ([Website](https://m45sci.xyz/)).
 Active since 2017.
 
 *Lines of Code:* ~14k
