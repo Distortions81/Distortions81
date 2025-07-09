@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Distortions81&fontSize=48&fontColor=ffffff" alt="Distortions81 Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Carl Otto&fontSize=48&fontColor=ffffff" alt="Distortions81 Header"/>
 </p>
 
 <p align="center">
