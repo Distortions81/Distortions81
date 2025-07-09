@@ -60,11 +60,11 @@ Custom archiving utility with a compact format.
 *Lines of Code:* ~5k
 
 **Highlights:**
-- File I/O in Go
 - Custom archive structure
 - Checksums, many compression types
-- Preserve file permissions, mod time
+- Preserve file permissions, mod times
 - Offers forward error correction
+- Threaded compression options
 
 ### 🛠️ [SoftMod](https://github.com/M45-Science/SoftMod)
 **Language:** Lua | **Complexity:** Medium-High
@@ -77,7 +77,7 @@ Custom archiving utility with a compact format.
 - Player permissions management
 - Logging of player actions
 - Localized to several languages
-- Player list with vote-banish system for player-based moderation.
+- Player menu with vote-banish system for player-based moderation.
 
 ### 🏴‍☠️ [PixelPirates](https://github.com/Distortions81/PixelPirates)
 **Language:** Go | **Complexity:** Medium-Low
@@ -89,10 +89,10 @@ Retro sailing and exploration prototype.
 [Blog post about this project](https://carlotto81.wixsite.com/m45-science/post/solo-game-developer-adventures)
 
 **Highlights:**
-- Procedurally generated clouds.
 - Custom real time music synthesizer.
-- Use of Perlin Noise for procedural generation
+- Use of Perlin Noise for procedural generation of sky.
 - Runs well in-browser using web assembly.
+- Can imort sprite sheets from [Aseprite](https://www.aseprite.org/)
 
 ### 🕹️ [goMMO](https://github.com/Distortions81/goMMO)
 **Language:** Go | **Complexity:** Medium-Low
@@ -104,9 +104,9 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 **Highlights:**
 - WebSocket networking
 - Custom low-bandwith binary networking protocol
-- Use of linear interpolation for smooth movement even with base rate of 8 UPS.
-- Uses hashmap  map-chunk system for speed
-- Caching of serialized game data to significantly reduce CPU needed.
+- Use of linear interpolation for smooth movement and frame-rate, even with base rate of 8 updates per second.
+- Uses hashmap map-chunk system for efficiency 
+- Caching of serialized game data to significantly reduce CPU needed in busy areas
 
 ### 🚫 [FactBanSync](https://github.com/M45-Science/FactBanSync)
 **Language:** Go | **Complexity:** Medium
@@ -122,11 +122,6 @@ Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge to
 - JSON processing
 - Lightweight web server
 
-### 📚 [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText)
-**Language:** Go | **Complexity:** Medium
-Attempts to recover blurred or pixelated text using brute-force comparison.
-*Lines of Code:* ~330
-
 ### 🌐 [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser)
 **Language:** Go | **Complexity:** Medium-Low
 
@@ -139,6 +134,11 @@ Minimal server browser for Factorio with a web interface. Polls servers on a sch
 - RESTful HTTP handling
 - Server polling and caching
 - Front-end/back-end integration
+
+### 📚 [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText)
+**Language:** Go | **Complexity:** Medium
+Attempts to recover blurred or pixelated text using brute-force comparison that is surprisingly effective.
+*Lines of Code:* ~330
 
 ### 🌀 [golang-frac](https://github.com/Distortions81/golang-frac)
 **Language:** Go | **Complexity:** Medium
@@ -159,9 +159,9 @@ A tribute to a childhood type-in economic sim.
 *Lines of Code:* ~1.8k
 
 **Highlights:**
-- Game loop and economic modeling
+- Simulates TUI of TI-99/4a
+- Game loop and economic modeling (brownian noise)
 - Event-driven simulation
-- Modular gameplay logic
 
 ### 💡 Misc Projects
 - [Other Experiments](https://m45sci.xyz/u/dist/)
