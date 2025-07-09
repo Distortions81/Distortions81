@@ -40,7 +40,7 @@ Active since 2017.
 ### 👀 [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
 **Language:** Go | **Complexity:** Medium
 
-Map seed viewer for the game 'Oxygen Not Included' using [Ebiten](https://ebitengine.org/). Fetches [seed data](https://mapsnotincluded.org/) and renders an interactive map with detailed info.
+Map seed viewer for the game '[Oxygen Not Included](https://www.klei.com/games/oxygen-not-included)' using [Ebiten](https://ebitengine.org/). Fetches [seed data](https://mapsnotincluded.org/) and renders an interactive map with detailed info.
 
 [Try it here](https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0)
 *Lines of Code:* ~4.6k
