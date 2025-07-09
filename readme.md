@@ -66,7 +66,7 @@ Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge to
 Attempts to recover blurred or pixelated text using brute-force comparison.
 *Lines of Code:* ~330
 
-### 🌐 [WebServerBrowser](https://github.com/M45-Science/WebServerBrowser)
+### 🌐 [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser)
 **Language:** Go | **Complexity:** Medium-Low
 
 Minimal server browser for Factorio with a web interface. Polls servers on a schedule, caches results, and serves a simple index page.
