@@ -112,6 +112,19 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 - Uses hashmap map-chunk system for efficiency 
 - Caching of serialized game data to significantly reduce CPU needed in busy areas
 
+### 🌐 [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser)
+**Language:** Go | **Complexity:** Medium-Low
+
+Minimal server browser for Factorio with a web interface. Polls servers on a schedule, caches results, and serves a simple index page.
+
+[Live Demo](https://factorio.go-game.net/)
+*Lines of Code:* ~1.3k
+
+**Highlights:**
+- RESTful HTTP handling
+- Server polling and caching
+- Front-end/back-end integration
+
 ### 🚫 [FactBanSync](https://github.com/M45-Science/FactBanSync)
 **Language:** Go | **Complexity:** Medium
 
@@ -125,19 +138,6 @@ Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge to
 - CLI tool design
 - JSON processing
 - Lightweight web server
-
-### 🌐 [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser)
-**Language:** Go | **Complexity:** Medium-Low
-
-Minimal server browser for Factorio with a web interface. Polls servers on a schedule, caches results, and serves a simple index page.
-
-[Live Demo](https://factorio.go-game.net/)
-*Lines of Code:* ~1.3k
-
-**Highlights:**
-- RESTful HTTP handling
-- Server polling and caching
-- Front-end/back-end integration
 
 ### 📚 [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText)
 **Language:** Go | **Complexity:** Medium
