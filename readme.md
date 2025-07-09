@@ -39,7 +39,7 @@ Active since 2017.
 ### 👀 [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
 **Language:** Go | **Complexity:** Medium
 
-Seed viewer for the game 'Oxygen Not Included' using [Ebiten](https://ebitengine.org/). Fetches seed data and renders an interactive map with detailed info.
+Map seed viewer for the game 'Oxygen Not Included' using [Ebiten](https://ebitengine.org/). Fetches [seed data](https://mapsnotincluded.org/) and renders an interactive map with detailed info.
 
 [Try it here](https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0)
 *Lines of Code:* ~4.6k
@@ -48,6 +48,8 @@ Seed viewer for the game 'Oxygen Not Included' using [Ebiten](https://ebitengine
 - Game data parsing
 - Rendering with Ebiten
 - Interactive seed exploration
+- UI scale can be adjusted
+- Touch controls for mobile
 
 ### 📦 [goXA](https://github.com/Distortions81/goXA)
 **Language:** Go | **Complexity:** Medium-Low
@@ -59,7 +61,9 @@ Custom archiving utility with a compact format.
 **Highlights:**
 - File I/O in Go
 - Custom archive structure
-- CLI packaging and unpacking
+- Checksums, many compression types
+- Preserve file permissions, mod time
+- Offers forward error correction
 
 ### 🛠️ [SoftMod](https://github.com/M45-Science/SoftMod)
 **Language:** Lua | **Complexity:** Medium-High
@@ -67,10 +71,12 @@ Custom archiving utility with a compact format.
 *Lines of Code:* ~7.5k
 
 **Highlights:**
-- Factorio event scripting in Lua
-- Stateful multiplayer tools
 - Dynamic GUI generation
 - Permission-based commands
+- Player permissions management
+- Logging of player actions
+- Localized to several languages
+- Player list with vote-banish system for player-based moderation.
 
 ### 🏴‍☠️ [PixelPirates](https://github.com/Distortions81/PixelPirates)
 **Language:** Go | **Complexity:** Medium-Low
@@ -79,10 +85,13 @@ Retro sailing and exploration prototype.
 
 [Play online](https://m45sci.xyz/u/dist/pixelpirate)
 *Lines of Code:* ~5.7k
+[Blog post about this project](https://carlotto81.wixsite.com/m45-science/post/solo-game-developer-adventures)
 
 **Highlights:**
 - Procedurally generated clouds.
 - Custom real time music synthesizer.
+- Use of Perlin Noise for procedural generation
+- Runs well in-browser using web assembly.
 
 ### 🕹️ [goMMO](https://github.com/Distortions81/goMMO)
 **Language:** Go | **Complexity:** Medium-Low
@@ -93,8 +102,10 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 
 **Highlights:**
 - WebSocket networking
-- Client-server communication
-- Minimal game engine
+- Custom low-bandwith binary networking protocol
+- Use of linear interpolation for smooth movement even with base rate of 8 UPS.
+- Uses hashmap  map-chunk system for speed
+- Caching of serialized game data to significantly reduce CPU needed.
 
 ### 🚫 [FactBanSync](https://github.com/M45-Science/FactBanSync)
 **Language:** Go | **Complexity:** Medium
