@@ -68,18 +68,20 @@ Custom archiving utility with a compact format.
 - Offers forward error correction
 - Threaded compression options
 
-### 🛠️ [SoftMod](https://github.com/M45-Science/SoftMod)
+### 🛠️ Factorio [SoftMod](https://github.com/M45-Science/SoftMod) for M45-Science.
 **Language:** Lua | **Complexity:** Medium-High
 
 *Lines of Code:* ~7.5k
 
 **Highlights:**
+- Localized to several languages
+- Player menu with vote-banish system for player-based moderation.
+- No game mod download needed
+- Can be updated mid-game via careful use of scenario scripting
 - Dynamic GUI generation
 - Permission-based commands
 - Player permissions management
 - Logging of player actions
-- Localized to several languages
-- Player menu with vote-banish system for player-based moderation.
 
 ### 🏴‍☠️ [PixelPirates](https://github.com/Distortions81/PixelPirates)
 **Language:** Go | **Complexity:** Medium-Low
