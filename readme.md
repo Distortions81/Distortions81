@@ -30,10 +30,11 @@ Active since 2017.
 *Lines of Code:* ~14k
 
 **Highlights:**
+- Discord bot development
+- Custom game-server and game-mod updaters
 - Go concurrency and goroutines
 - Process control and system integration
 - WebSockets and HTTP APIs
-- Discord bot development
 - Live logging and diagnostics
 
 ### 👀 [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
