@@ -68,7 +68,7 @@ Custom archiving utility with a compact format.
 - Offers forward error correction
 - Threaded compression options
 
-### 🛠️ Factorio [SoftMod](https://github.com/M45-Science/SoftMod) for M45-Science.
+### 🛠️ Factorio [SoftMod](https://github.com/M45-Science/SoftMod) (for [M45-Science](https://github.com/M45-Science))
 **Language:** Lua | **Complexity:** Medium-High
 
 *Lines of Code:* ~7.5k
