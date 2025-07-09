@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Carl Otto&fontSize=48&fontColor=ffffff" alt="Distortions81 Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Distortions81&fontSize=48&fontColor=ffffff" alt="Carl Otto Header"/>
 </p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?lines=Systems+programming+meets+game+dev;Always+building+something+new!&center=true&width=440&height=35" alt="Typing SVG" />
 </p>
 
-# Hi, I'm Carl Otto 👋
+# Hi, I'm Distortions81 👋
 
 Welcome to my GitHub profile! I enjoy building tools and prototypes that connect systems programming with game development.
 
