@@ -30,7 +30,7 @@ Active since 2017.
 *Lines of Code:* ~14k
 
 **Highlights:**
-- Discord bot development
+- Discord bot development: [DiscordGo](https://github.com/bwmarrin/discordgo)
 - Custom game-server and game-mod updaters. [Download API](https://wiki.factorio.com/Download_API), [Mod API](https://wiki.factorio.com/Mod_portal_API)
 - Go concurrency and goroutines
 - Process control and system integration
