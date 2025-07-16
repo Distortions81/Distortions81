@@ -124,6 +124,7 @@ Minimal server browser for Factorio with a web interface. Polls servers on a sch
 - RESTful HTTP handling
 - Server polling and caching
 - Front-end/back-end integration
+- Uses [matchmaking](https://wiki.factorio.com/Matchmaking_API) API
 
 ### 🚫 [FactBanSync](https://github.com/M45-Science/FactBanSync)
 **Language:** Go | **Complexity:** Medium
