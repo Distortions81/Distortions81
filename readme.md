@@ -31,7 +31,7 @@ Active since 2017.
 
 **Highlights:**
 - Discord bot development
-- Custom game-server and game-mod updaters
+- Custom game-server and game-mod updaters. [Download API](https://wiki.factorio.com/Download_API), [Mod API](https://wiki.factorio.com/Mod_portal_API)
 - Go concurrency and goroutines
 - Process control and system integration
 - WebSockets and HTTP APIs
