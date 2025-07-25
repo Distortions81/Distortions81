@@ -15,6 +15,7 @@ Welcome to my GitHub profile! I enjoy building tools and prototypes that connect
 - [🌍 M45-Science](https://m45sci.xyz)
 - [🎮 go-game.net](http://go-game.net)
 - [📝 Blog Posts](https://carlotto81.wixsite.com/m45-science)
+- [🔥Project Gallery](https://m45sci.xyz/u/dist/)
 ---
 
 ## 🌟 Featured Projects
@@ -167,9 +168,6 @@ A tribute to a childhood type-in economic sim.
 - Simulates TUI of TI-99/4a
 - Game loop and economic modeling (brownian noise)
 - Event-driven simulation
-
-### 💡 Misc Projects
-- [Other Experiments](https://m45sci.xyz/u/dist/)
 
 ## 📈 GitHub Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=Distortions81&show_icons=true&theme=dark)
