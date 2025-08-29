@@ -21,6 +21,19 @@ Welcome to my GitHub profile! I enjoy building tools and prototypes that connect
 ## 🌟 Featured Projects
 A selection of repositories that showcase what I like to build.
 
+### ⚔️ [goThoom](https://github.com/Distortions81/goThoom)
+**Language:** Go | **Complexity:** High
+
+Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binary using the Ebiten game engine with OpenGL, DirectX, or Metal rendering and plugin support.
+
+*Lines of Code:* ~38k
+
+**Highlights:**
+- Cross-platform builds with fast Ebiten rendering (OpenGL/DirectX/Metal)
+- Text-to-speech and asset auto-fetch
+- Plugin system powered by Yaegi
+- Higher framerates with de-dithering of legacy graphics
+
 ### 🚀 [ChatWire](https://github.com/M45-Science/ChatWire)
 **Language:** Go | **Complexity:** High
 
@@ -28,7 +41,7 @@ A robust bridge between Discord and Factorio servers, manages servers and empowe
 A part of [M45-Science](https://github.com/M45-Science) github organization ([Website](https://m45sci.xyz/)).
 Active since 2017.
 
-*Lines of Code:* ~14k
+*Lines of Code:* ~14.2k
 
 **Highlights:**
 - Discord bot development: [DiscordGo](https://github.com/bwmarrin/discordgo)
@@ -60,7 +73,7 @@ Web (web assembly) map seed viewer for the game '[Oxygen Not Included](https://w
 
 Custom archiving utility with a compact format.
 
-*Lines of Code:* ~5k
+ *Lines of Code:* ~5.0k
 
 **Highlights:**
 - Custom archive structure
@@ -133,7 +146,7 @@ Minimal server browser for Factorio with a web interface. Polls servers on a sch
 Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge tool and lightweight web API for centralized management.
 
 [Web Interface](https://m45sci.xyz:8443/)
-*Lines of Code:* ~1.6k
+*Lines of Code:* ~1.7k
 
 **Highlights:**
 - Data synchronization
@@ -162,7 +175,7 @@ Fractal visualizer and generator with WebAssembly support.
 A tribute to a childhood type-in economic sim.
 
 [Play it here](https://m45sci.xyz/u/dist/otto/marketmadness/)
-*Lines of Code:* ~1.8k
+ *Lines of Code:* ~1.9k
 
 **Highlights:**
 - Simulates TUI of TI-99/4a
