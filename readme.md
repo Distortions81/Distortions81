@@ -26,7 +26,7 @@ A selection of repositories that showcase what I like to build.
 
 Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binary using the Ebiten game engine with OpenGL, DirectX, or Metal rendering and plugin support.
 
-*Lines of Code:* ~38k
+*Lines of Code:* ~45k
 
 **Highlights:**
 - Cross-platform builds with fast Ebiten rendering (OpenGL/DirectX/Metal)
