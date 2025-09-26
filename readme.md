@@ -6,9 +6,15 @@
   <img src="https://readme-typing-svg.demolab.com/?lines=Systems+programming+meets+game+dev;Always+building+something+new!&center=true&width=440&height=35" alt="Typing SVG" />
 </p>
 
-# Hi, I'm Distortions81 👋
+## About Me
 
-Welcome to my GitHub profile! I enjoy building tools and prototypes that connect systems programming with game development.
+I’m a builder at heart. I move fluidly between code, electronics, and data—whether it’s writing Go servers and game engines, hacking Factorio mods, tuning Linux systems, or modeling solar batteries. I like to peel back abstractions, test assumptions, and make trade-offs visible with graphs, benchmarks, and prototypes.  
+
+I treat every project as an experiment: build, measure, refine, repeat. My repos reflect that tinkerer-scientist loop—sometimes it’s a polished tool, other times it’s a weird prototype that scratches an itch. Either way, it’s hands-on, data-driven, and open to exploration.  
+
+I value efficiency and leverage: scripts that automate, formats that clarify, visualizations that reveal. If there’s friction between an idea and a working system, I want to sand it down.  
+
+In short: I don’t just use systems—I take them apart, rebuild them, and see how far they can be pushed.
 
 
 ### 🌐 Links
