@@ -20,11 +20,10 @@ In short: I don’t just use systems—I take them apart, rebuild them, and see 
 ### 🌐 Links
 - [✨ M45-Science Hub](https://m45sci.xyz/)
 - [🏢 M45-Science GitHub](https://github.com/orgs/M45-Science/repositories)
-- [🌀 goThoom](https://gothoom.xyz)
-- [🎮 go-game.net](http://go-game.net)
 - [📝 Blog Posts](https://carlotto81.wixsite.com/m45-science)
 - [🔥Project Gallery](https://m45sci.xyz/u/dist/)
 - [🕸️ m45core.com](https://m45core.com)
+- [🎮 go-game.net](http://go-game.net)
 ---
 
 ## 🌟 Featured Projects
