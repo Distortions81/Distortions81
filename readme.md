@@ -18,11 +18,13 @@ In short: I don’t just use systems—I take them apart, rebuild them, and see 
 
 
 ### 🌐 Links
-- [🌍 M45-Science](https://m45sci.xyz)
+- [✨ M45-Science Hub](https://m45sci.xyz/)
+- [🏢 M45-Science GitHub](https://github.com/orgs/M45-Science/repositories)
 - [🌀 goThoom](https://gothoom.xyz)
 - [🎮 go-game.net](http://go-game.net)
 - [📝 Blog Posts](https://carlotto81.wixsite.com/m45-science)
 - [🔥Project Gallery](https://m45sci.xyz/u/dist/)
+- [🕸️ m45core.com](https://m45core.com)
 ---
 
 ## 🌟 Featured Projects
@@ -40,6 +42,16 @@ Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binar
 - Text-to-speech and asset auto-fetch
 - Plugin system powered by Yaegi
 - Higher framerates with de-dithering of legacy graphics
+
+### 🏦 [M45-Core-goPool](https://github.com/Distortions81/M45-Core-goPool)
+**Language:** Go | **Complexity:** High
+
+Standalone Bitcoin mining pool that pairs with Bitcoin Core (JSON-RPC + ZMQ) to serve Stratum v1 miners (plain or TLS), exposes an HTTPS-first status UI/JSON API, auto-manages TLS certs, and packages rich config, operations, and testing docs.
+
+**Highlights:**
+- Bitcoin Core integration (RPC longpoll and ZMQ block feed) with configurable coinbase splits for fee, donation, and miner payouts.
+- Defensive controls for rate limiting, invalid-submission bans, reconnect churn mitigation, and live reload signals for templates/config.
+- Scripts for installing Bitcoin Core, running the full Go test suite, profiling CPU usage, plus detailed `operations.md`/`performance.md`/`TESTING.md`.
 
 ### 🚀 [ChatWire](https://github.com/M45-Science/ChatWire)
 **Language:** Go | **Complexity:** High
