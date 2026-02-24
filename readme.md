@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Distortions81&fontSize=48&fontColor=ffffff" alt="Carl Otto Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Carl+Otto&fontSize=48&fontColor=ffffff&desc=Distortions81&descAlignY=68&descSize=18" alt="Carl Otto Header"/>
 </p>
 
 <p align="center">
