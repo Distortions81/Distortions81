@@ -24,6 +24,7 @@ In short: I don’t just use systems—I take them apart, rebuild them, and see 
 - [🏢 M45-Science GitHub](https://github.com/orgs/M45-Science/repositories)
 - [🕸️ m45core.com](https://m45core.com)
 - [🎮 go-game.net](http://go-game.net)
+
 ---
 
 ## 🌟 Featured Projects
@@ -37,10 +38,10 @@ Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binar
 *Lines of Code:* ~55k
 
 **Highlights:**
-- Cross-platform builds with fast Ebiten rendering (OpenGL/DirectX/Metal)
-- Text-to-speech and asset auto-fetch
-- Plugin system powered by Yaegi
-- Higher framerates with de-dithering of legacy graphics
+- Cross-platform desktop client built on Ebiten with OpenGL, DirectX, and Metal backends
+- Plugin system powered by Yaegi for runtime extensibility and experimentation
+- Quality-of-life upgrades including text-to-speech and automatic asset fetching
+- Performance-focused rendering improvements, including de-dithering for legacy graphics
 
 ### 🏦 [M45-goPool](https://github.com/Distortions81/M45-goPool)
 **Language:** Go | **Complexity:** High
@@ -50,50 +51,46 @@ Standalone Bitcoin mining pool that pairs with Bitcoin Core (JSON-RPC + ZMQ) to 
 *Lines of Code:* ~50k (including tests)
 
 **Highlights:**
-- Bitcoin Core integration (RPC longpoll and ZMQ block feed) with configurable coinbase splits for fee, donation, and miner payouts.
-- Defensive controls for rate limiting, invalid-submission bans, reconnect churn mitigation, and live reload signals for templates/config.
-- Scripts for installing Bitcoin Core, running the full Go test suite, profiling CPU usage, plus detailed `operations.md`/`performance.md`/`TESTING.md`.
+- Deep Bitcoin Core integration via JSON-RPC longpoll + ZMQ block feed for Stratum v1 mining
+- Production-minded pool controls: rate limiting, invalid-share bans, reconnect churn mitigation, and TLS support
+- Configurable coinbase split handling for fees, donations, and miner payouts
+- Strong ops/testing ergonomics with install scripts, profiling helpers, and detailed `operations.md`, `performance.md`, and `TESTING.md`
 
 ### 🚀 [ChatWire](https://github.com/M45-Science/ChatWire)
 **Language:** Go | **Complexity:** High
 
-A robust bridge between Discord and Factorio servers, manages servers and empowers moderators.
-A part of [M45-Science](https://github.com/M45-Science) github organization ([Website](https://m45sci.xyz/)).
+A robust bridge between Discord and Factorio servers that manages game servers and empowers moderators.
+Part of the [M45-Science](https://github.com/M45-Science) GitHub organization ([website](https://m45sci.xyz/)).
 Active since 2017.
 
 *Lines of Code:* ~16.1k
 
 **Highlights:**
-- Discord bot development: [DiscordGo](https://github.com/bwmarrin/discordgo)
-- Custom game-server and game-mod updaters. [Download API](https://wiki.factorio.com/Download_API), [Mod API](https://wiki.factorio.com/Mod_portal_API)
-- Go concurrency and goroutines
-- Process control and system integration
-- WebSockets and HTTP APIs
-- Live logging and diagnostics
+- Long-running Discord-to-Factorio bridge built with [DiscordGo](https://github.com/bwmarrin/discordgo)
+- Server orchestration and process control for managing multiple game instances
+- Custom game/mod update workflows using the Factorio [Download API](https://wiki.factorio.com/Download_API) and [Mod Portal API](https://wiki.factorio.com/Mod_portal_API)
+- Real-time operations tooling with WebSockets, HTTP APIs, and live logging/diagnostics
 
 ### 👀 [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
 **Language:** Go | **Complexity:** Medium
 
-Web (web assembly) map seed viewer for the game '[Oxygen Not Included](https://www.klei.com/games/oxygen-not-included)' using [Ebiten](https://ebitengine.org/). Fetches [seed data](https://mapsnotincluded.org/) and renders an interactive map with detailed info.
+WebAssembly map seed viewer for [Oxygen Not Included](https://www.klei.com/games/oxygen-not-included) built with [Ebiten](https://ebitengine.org/). It fetches [seed data](https://mapsnotincluded.org/) and renders an interactive map with detailed biome/object information.
 
 [Try it here](https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0)
 *Lines of Code:* ~5.6k
 
 **Highlights:**
-- Game data parsing
-- Rendering with Ebiten
-- Interactive seed exploration
-- UI scale can be adjusted
-- Can export high-res printable maps
-- Touch controls for mobile
-- Available as an alternate viewer on [MapsNotIncluded.org](https://mapsnotincluded.org/map-explorer/SNDST-A-1-0-0-0)
+- Parses and visualizes ONI seed data in-browser using Go + WebAssembly
+- Interactive map exploration with detailed overlays and adjustable UI scaling
+- Export support for high-resolution printable maps
+- Mobile-friendly touch controls and alternate viewer integration on [MapsNotIncluded.org](https://mapsnotincluded.org/map-explorer/SNDST-A-1-0-0-0)
 
 ### 📦 [goXA](https://github.com/Distortions81/goXA)
 **Language:** Go | **Complexity:** Medium-Low
 
 Custom archiving utility with a compact format.
 
- *Lines of Code:* ~4.9k
+*Lines of Code:* ~4.9k
 
 **Highlights:**
 - Custom archive structure
@@ -110,14 +107,10 @@ Scenario scripts for M45-Science Factorio servers (softmod/scenario scripting).
 *Lines of Code:* ~9.5k
 
 **Highlights:**
-- Localized to several languages
-- Player menu with vote-banish system for player-based moderation.
-- No game mod download needed
-- Can be updated mid-game via careful use of scenario scripting
-- Dynamic GUI generation
-- Permission-based commands
-- Player permissions management
-- Logging of player actions
+- Scenario-based server scripting with no client-side mod download required
+- Dynamic GUI systems and permission-based commands for moderation/admin workflows
+- Player-driven moderation features (including vote-banish) and action logging
+- Localization support across multiple languages with live server usage in production
 
 ### 🏴‍☠️ [PixelPirates](https://github.com/Distortions81/PixelPirates)
 **Language:** Go | **Complexity:** Medium-Low
@@ -129,10 +122,10 @@ Retro sailing and exploration prototype.
 [Blog post about this project](https://carlotto81.wixsite.com/m45-science/post/solo-game-developer-adventures)
 
 **Highlights:**
-- Custom real time music synthesizer.
-- Use of Perlin Noise for procedural generation of sky.
-- Runs well in-browser using web assembly.
-- Can imort sprite sheets from [Aseprite](https://www.aseprite.org/)
+- Custom real-time music synthesizer
+- Perlin noise-driven procedural sky generation
+- Runs well in-browser via WebAssembly
+- Can import sprite sheets from [Aseprite](https://www.aseprite.org/)
 
 ### 🕹️ [goMMO](https://github.com/Distortions81/goMMO)
 **Language:** Go | **Complexity:** Medium-Low
@@ -143,10 +136,10 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 
 **Highlights:**
 - WebSocket networking
-- Custom low-bandwith binary networking protocol
-- Use of linear interpolation for smooth movement and frame-rate, even with base rate of 8 updates per second.
-- Uses hashmap map-chunk system for efficiency 
-- Caching of serialized game data to significantly reduce CPU needed in busy areas
+- Custom low-bandwidth binary networking protocol
+- Linear interpolation for smooth movement/frame pacing at low update rates (8 Hz base)
+- Hashmap-backed chunk system for efficient world state management
+- Serialized game-data caching to reduce CPU load in busy areas
 
 ### 🌐 [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser)
 **Language:** Go | **Complexity:** Medium-Low
@@ -197,11 +190,11 @@ Mandelbrot fractal renderer for high-detail image/video frame generation.
 A tribute to a childhood type-in economic sim.
 
 [Play it here](https://m45sci.xyz/u/dist/otto/marketmadness/)
- *Lines of Code:* ~1.7k
+*Lines of Code:* ~1.7k
 
 **Highlights:**
 - Simulates TUI of TI-99/4a
-- Game loop and economic modeling (brownian noise)
+- Game loop and economic modeling (Brownian noise)
 - Event-driven simulation
 
 ## 📈 GitHub Stats
