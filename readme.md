@@ -8,29 +8,26 @@
 
 ## About Me
 
-I’m a builder at heart. I move fluidly between code, electronics, and data—whether it’s writing Go servers and game engines, hacking Factorio mods, tuning Linux systems, or modeling solar batteries. I like to peel back abstractions, test assumptions, and make trade-offs visible with graphs, benchmarks, and prototypes.  
+I work across software, electronics, and data, with a focus on systems programming, game development, automation, and infrastructure-oriented tooling. My projects often combine implementation with measurement, using benchmarks, visualizations, and prototypes to make trade-offs explicit.  
 
-I treat every project as an experiment: build, measure, refine, repeat. My repos reflect that tinkerer-scientist loop—sometimes it’s a polished tool, other times it’s a weird prototype that scratches an itch. Either way, it’s hands-on, data-driven, and open to exploration.  
+I approach projects iteratively: build, measure, refine, and document. Some repositories are production-ready tools, while others are focused experiments used to validate a design or technical approach.  
 
-I value efficiency and leverage: scripts that automate, formats that clarify, visualizations that reveal. If there’s friction between an idea and a working system, I want to sand it down.  
+I value efficiency and leverage: automation scripts, clear formats, and practical tooling that reduce friction between an idea and a working system.  
 
-In short: I don’t just use systems—I take them apart, rebuild them, and see how far they can be pushed.
+In practice, that means building systems, inspecting how they behave, and improving them until they are reliable, understandable, and useful.
 
 
-### 🌐 Links
-- [🔥Project Gallery](https://m45sci.xyz/u/dist/)
-- [📝 Blog Posts](https://carlotto81.wixsite.com/m45-science)
-- [✨ M45-Science Hub](https://m45sci.xyz/)
-- [🏢 M45-Science GitHub](https://github.com/orgs/M45-Science/repositories)
-- [🕸️ m45core.com](https://m45core.com)
-- [🎮 go-game.net](http://go-game.net)
+### Links
+- [Project Gallery](https://m45sci.xyz/u/dist/)
+- [M45-Science GitHub](https://github.com/orgs/M45-Science/repositories)
+- [m45core.com](https://m45core.com)
 
 ---
 
-## 🌟 Featured Projects
+## Featured Projects
 A selection of repositories that showcase what I like to build.
 
-### ⚔️ [goThoom](https://github.com/Distortions81/goThoom)
+### [goThoom](https://github.com/Distortions81/goThoom)
 **Language:** Go | **Complexity:** High
 
 Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binary using the Ebiten game engine with OpenGL, DirectX, or Metal rendering and plugin support.
@@ -43,7 +40,7 @@ Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binar
 - Quality-of-life upgrades including text-to-speech and automatic asset fetching
 - Performance-focused rendering improvements, including de-dithering for legacy graphics
 
-### 🏦 [M45-goPool](https://github.com/Distortions81/M45-goPool)
+### [M45-goPool](https://github.com/Distortions81/M45-goPool)
 **Language:** Go | **Complexity:** High
 
 Standalone Bitcoin mining pool that pairs with Bitcoin Core (JSON-RPC + ZMQ) to serve Stratum v1 miners (plain or TLS), exposes an HTTPS-first status UI/JSON API, auto-manages TLS certs, and packages rich config, operations, and testing docs.
@@ -56,7 +53,7 @@ Standalone Bitcoin mining pool that pairs with Bitcoin Core (JSON-RPC + ZMQ) to 
 - Configurable coinbase split handling for fees, donations, and miner payouts
 - Strong ops/testing ergonomics with install scripts, profiling helpers, and detailed `operations.md`, `performance.md`, and `TESTING.md`
 
-### 🚀 [ChatWire](https://github.com/M45-Science/ChatWire)
+### [ChatWire](https://github.com/M45-Science/ChatWire)
 **Language:** Go | **Complexity:** High
 
 A robust bridge between Discord and Factorio servers that manages game servers and empowers moderators.
@@ -71,7 +68,7 @@ Active since 2017.
 - Custom game/mod update workflows using the Factorio [Download API](https://wiki.factorio.com/Download_API) and [Mod Portal API](https://wiki.factorio.com/Mod_portal_API)
 - Real-time operations tooling with WebSockets, HTTP APIs, and live logging/diagnostics
 
-### 👀 [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
+### [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
 **Language:** Go | **Complexity:** Medium
 
 WebAssembly map seed viewer for [Oxygen Not Included](https://www.klei.com/games/oxygen-not-included) built with [Ebiten](https://ebitengine.org/). It fetches [seed data](https://mapsnotincluded.org/) and renders an interactive map with detailed biome/object information.
@@ -85,7 +82,7 @@ WebAssembly map seed viewer for [Oxygen Not Included](https://www.klei.com/games
 - Export support for high-resolution printable maps
 - Mobile-friendly touch controls and alternate viewer integration on [MapsNotIncluded.org](https://mapsnotincluded.org/map-explorer/SNDST-A-1-0-0-0)
 
-### 📦 [goXA](https://github.com/Distortions81/goXA)
+### [goXA](https://github.com/Distortions81/goXA)
 **Language:** Go | **Complexity:** Medium-Low
 
 Custom archiving utility with a compact format.
@@ -99,7 +96,7 @@ Custom archiving utility with a compact format.
 - Offers forward error correction
 - Threaded compression options
 
-### 🛠️ Factorio [SoftMod](https://github.com/M45-Science/SoftMod) (for [M45-Science](https://github.com/M45-Science))
+### Factorio [SoftMod](https://github.com/M45-Science/SoftMod) (for [M45-Science](https://github.com/M45-Science))
 **Language:** Lua | **Complexity:** Medium-High
 
 Scenario scripts for M45-Science Factorio servers (softmod/scenario scripting).
@@ -112,10 +109,10 @@ Scenario scripts for M45-Science Factorio servers (softmod/scenario scripting).
 - Player-driven moderation features (including vote-banish) and action logging
 - Localization support across multiple languages with live server usage in production
 
-### 🏴‍☠️ [PixelPirates](https://github.com/Distortions81/PixelPirates)
+### [PixelPirates](https://github.com/Distortions81/PixelPirates)
 **Language:** Go | **Complexity:** Medium-Low
 
-Retro sailing and exploration prototype.
+Retro sailing and exploration prototype focused on rendering and game-feel experimentation.
 
 [Play online](https://m45sci.xyz/u/dist/pixelpirate)
 *Lines of Code:* ~5.3k
@@ -127,7 +124,7 @@ Retro sailing and exploration prototype.
 - Runs well in-browser via WebAssembly
 - Can import sprite sheets from [Aseprite](https://www.aseprite.org/)
 
-### 🕹️ [goMMO](https://github.com/Distortions81/goMMO)
+### [goMMO](https://github.com/Distortions81/goMMO)
 **Language:** Go | **Complexity:** Medium-Low
 
 Client-side MMO prototype demonstrating basic networking. Implements a small world simulation and WebSocket communication for testing.
@@ -141,7 +138,7 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 - Hashmap-backed chunk system for efficient world state management
 - Serialized game-data caching to reduce CPU load in busy areas
 
-### 🌐 [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser)
+### [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser)
 **Language:** Go | **Complexity:** Medium-Low
 
 Minimal server browser for Factorio with a web interface. Polls servers on a schedule, caches results, and serves a simple index page.
@@ -155,7 +152,7 @@ Minimal server browser for Factorio with a web interface. Polls servers on a sch
 - Front-end/back-end integration
 - Uses [matchmaking](https://wiki.factorio.com/Matchmaking_API) API
 
-### 🚫 [FactBanSync](https://github.com/M45-Science/FactBanSync)
+### [FactBanSync](https://github.com/M45-Science/FactBanSync)
 **Language:** Go | **Complexity:** Medium
 
 Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge tool and lightweight web API for centralized management.
@@ -169,12 +166,12 @@ Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge to
 - JSON processing
 - Lightweight web server
 
-### 📚 [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText)
+### [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText)
 **Language:** Go | **Complexity:** Medium
-Attempts to recover blurred or pixelated text using brute-force comparison that is surprisingly effective.
+Experimental tool that attempts to recover blurred or pixelated text using brute-force comparison.
 *Lines of Code:* ~360
 
-### 🌀 [golang-frac](https://github.com/Distortions81/golang-frac)
+### [golang-frac](https://github.com/Distortions81/golang-frac)
 **Language:** Go | **Complexity:** Medium
 Mandelbrot fractal renderer for high-detail image/video frame generation.
 
@@ -185,9 +182,9 @@ Mandelbrot fractal renderer for high-detail image/video frame generation.
 - High-resolution frame/image generation
 - CLI-controlled zoom and render parameters
 
-### 💹 [goMarketMadness](https://github.com/Distortions81/goMarketMadness)
+### [goMarketMadness](https://github.com/Distortions81/goMarketMadness)
 **Language:** Go | **Complexity:** Medium
-A tribute to a childhood type-in economic sim.
+A tribute to a childhood type-in economic simulation.
 
 [Play it here](https://m45sci.xyz/u/dist/otto/marketmadness/)
 *Lines of Code:* ~1.7k
@@ -197,7 +194,7 @@ A tribute to a childhood type-in economic sim.
 - Game loop and economic modeling (Brownian noise)
 - Event-driven simulation
 
-## 📈 GitHub Stats
+## GitHub Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=Distortions81&show_icons=true&theme=dark)
 
-_Thanks for visiting!_
+_Thank you for visiting._
