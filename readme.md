@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Systems+programming+meets+game+dev;Always+building+something+new!&center=true&width=440&height=35" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Systems+Programming+%7C+Infrastructure+Tooling;Go+Development%2C+Automation%2C+and+Applied+Engineering&center=true&width=700&height=35" alt="Typing SVG" />
 </p>
 
 ## About Me
@@ -193,8 +193,5 @@ A tribute to a childhood type-in economic simulation.
 - Simulates TUI of TI-99/4a
 - Game loop and economic modeling (Brownian noise)
 - Event-driven simulation
-
-## GitHub Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=Distortions81&show_icons=true&theme=dark)
 
 _Thank you for visiting._
