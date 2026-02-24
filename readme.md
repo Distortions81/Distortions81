@@ -47,7 +47,7 @@ Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binar
 
 Standalone Bitcoin mining pool that pairs with Bitcoin Core (JSON-RPC + ZMQ) to serve Stratum v1 miners (plain or TLS), exposes an HTTPS-first status UI/JSON API, auto-manages TLS certs, and packages rich config, operations, and testing docs.
 
-*Lines of Code:* ~34k (code) + ~16k in tests
+*Lines of Code:* ~50k (including tests)
 
 **Highlights:**
 - Bitcoin Core integration (RPC longpoll and ZMQ block feed) with configurable coinbase splits for fee, donation, and miner payouts.
