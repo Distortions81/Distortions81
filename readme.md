@@ -34,7 +34,7 @@ A selection of repositories that showcase what I like to build.
 
 Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binary using the Ebiten game engine with OpenGL, DirectX, or Metal rendering and plugin support.
 
-*Lines of Code:* ~45k
+*Lines of Code:* ~55k
 
 **Highlights:**
 - Cross-platform builds with fast Ebiten rendering (OpenGL/DirectX/Metal)
@@ -42,10 +42,12 @@ Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binar
 - Plugin system powered by Yaegi
 - Higher framerates with de-dithering of legacy graphics
 
-### 🏦 [M45-Core-goPool](https://github.com/Distortions81/M45-Core-goPool)
+### 🏦 [M45-goPool](https://github.com/Distortions81/M45-goPool)
 **Language:** Go | **Complexity:** High
 
 Standalone Bitcoin mining pool that pairs with Bitcoin Core (JSON-RPC + ZMQ) to serve Stratum v1 miners (plain or TLS), exposes an HTTPS-first status UI/JSON API, auto-manages TLS certs, and packages rich config, operations, and testing docs.
+
+*Lines of Code:* ~34k (code) + ~16k in tests
 
 **Highlights:**
 - Bitcoin Core integration (RPC longpoll and ZMQ block feed) with configurable coinbase splits for fee, donation, and miner payouts.
@@ -59,7 +61,7 @@ A robust bridge between Discord and Factorio servers, manages servers and empowe
 A part of [M45-Science](https://github.com/M45-Science) github organization ([Website](https://m45sci.xyz/)).
 Active since 2017.
 
-*Lines of Code:* ~14.2k
+*Lines of Code:* ~16.1k
 
 **Highlights:**
 - Discord bot development: [DiscordGo](https://github.com/bwmarrin/discordgo)
@@ -75,7 +77,7 @@ Active since 2017.
 Web (web assembly) map seed viewer for the game '[Oxygen Not Included](https://www.klei.com/games/oxygen-not-included)' using [Ebiten](https://ebitengine.org/). Fetches [seed data](https://mapsnotincluded.org/) and renders an interactive map with detailed info.
 
 [Try it here](https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0)
-*Lines of Code:* ~4.6k
+*Lines of Code:* ~5.6k
 
 **Highlights:**
 - Game data parsing
@@ -91,7 +93,7 @@ Web (web assembly) map seed viewer for the game '[Oxygen Not Included](https://w
 
 Custom archiving utility with a compact format.
 
- *Lines of Code:* ~5.0k
+ *Lines of Code:* ~4.9k
 
 **Highlights:**
 - Custom archive structure
@@ -103,7 +105,9 @@ Custom archiving utility with a compact format.
 ### 🛠️ Factorio [SoftMod](https://github.com/M45-Science/SoftMod) (for [M45-Science](https://github.com/M45-Science))
 **Language:** Lua | **Complexity:** Medium-High
 
-*Lines of Code:* ~7.5k
+Scenario scripts for M45-Science Factorio servers (softmod/scenario scripting).
+
+*Lines of Code:* ~9.5k
 
 **Highlights:**
 - Localized to several languages
@@ -121,7 +125,7 @@ Custom archiving utility with a compact format.
 Retro sailing and exploration prototype.
 
 [Play online](https://m45sci.xyz/u/dist/pixelpirate)
-*Lines of Code:* ~5.7k
+*Lines of Code:* ~5.3k
 [Blog post about this project](https://carlotto81.wixsite.com/m45-science/post/solo-game-developer-adventures)
 
 **Highlights:**
@@ -135,7 +139,7 @@ Retro sailing and exploration prototype.
 
 Client-side MMO prototype demonstrating basic networking. Implements a small world simulation and WebSocket communication for testing.
 
-*Lines of Code:* ~3.9k
+*Lines of Code:* ~5.1k
 
 **Highlights:**
 - WebSocket networking
@@ -150,7 +154,7 @@ Client-side MMO prototype demonstrating basic networking. Implements a small wor
 Minimal server browser for Factorio with a web interface. Polls servers on a schedule, caches results, and serves a simple index page.
 
 [Live Demo](https://factorio.go-game.net/)
-*Lines of Code:* ~1.3k
+*Lines of Code:* ~1.1k
 
 **Highlights:**
 - RESTful HTTP handling
@@ -175,25 +179,25 @@ Synchronizes ban lists across multiple Factorio servers. Contains a CLI merge to
 ### 📚 [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText)
 **Language:** Go | **Complexity:** Medium
 Attempts to recover blurred or pixelated text using brute-force comparison that is surprisingly effective.
-*Lines of Code:* ~330
+*Lines of Code:* ~360
 
 ### 🌀 [golang-frac](https://github.com/Distortions81/golang-frac)
 **Language:** Go | **Complexity:** Medium
-Fractal visualizer and generator with WebAssembly support.
+Mandelbrot fractal renderer for high-detail image/video frame generation.
 
-*Lines of Code:* ~300
+*Lines of Code:* ~380
 
 **Highlights:**
-- Complex number math
-- Ebiten graphics engine
-- WASM build pipeline
+- Multi-threaded Mandelbrot rendering
+- High-resolution frame/image generation
+- CLI-controlled zoom and render parameters
 
 ### 💹 [goMarketMadness](https://github.com/Distortions81/goMarketMadness)
 **Language:** Go | **Complexity:** Medium
 A tribute to a childhood type-in economic sim.
 
 [Play it here](https://m45sci.xyz/u/dist/otto/marketmadness/)
- *Lines of Code:* ~1.9k
+ *Lines of Code:* ~1.7k
 
 **Highlights:**
 - Simulates TUI of TI-99/4a
