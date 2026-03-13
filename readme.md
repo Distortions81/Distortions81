@@ -27,6 +27,32 @@ In practice, that means building systems, inspecting how they behave, and improv
 ## Featured Projects
 A selection of repositories that showcase what I like to build.
 
+### [ImpSynth](https://github.com/Distortions81/ImpSynth)
+**Language:** Go | **Complexity:** Medium
+
+Small OPL3-style FM synth library in Go focused on the practical DMX/Doom-era register subset: 2-operator voices, envelopes, feedback, waveforms, stereo pan, and direct OPL-style register writes.
+
+*Lines of Code:* ~1k
+
+**Highlights:**
+- Focused FM synth implementation tuned around the classic Doom/DMX-style OPL workflow
+- Simple register-driven API with stereo `int16` PCM generation
+- Includes an example renderer that converts melody CSV + patch JSON inputs into `.wav` output
+- Zero-allocation PCM benchmark noted in the repo docs for real-time-friendly synthesis work
+
+### [numfmt](https://github.com/Distortions81/numfmt)
+**Language:** Go | **Complexity:** Medium-Low
+
+Compact numeric encoding library for large positive values that trades exactness for predictable error, making telemetry, snapshots, and other high-volume numeric payloads much smaller.
+
+*Lines of Code:* ~1.5k
+
+**Highlights:**
+- Encodes values into compact `8`/`16`/`32` bit integer codes using tunable exponent and mantissa sizing
+- Supports constrained ranges and automatic exponent sizing for domain-specific quantization
+- Includes a binary payload format for packing whole numeric slices with self-describing codec metadata
+- Ships with a small JavaScript codec plus generated quantization-guide docs for cross-language use and evaluation
+
 ### [goThoom](https://github.com/Distortions81/goThoom)
 **Language:** Go | **Complexity:** High
 
