@@ -30,15 +30,15 @@ A selection of repositories that reflect the range of systems, tools, and experi
 ### [GD-DOOM](https://github.com/Distortions81/GD-DOOM)
 **Language:** Go | **Complexity:** Very High
 
-Go-based Doom runtime covering WAD loading, gameplay systems, rendering, audio, frontend flow, and demo tooling. It aims for classic Doom behavior where it matters while also supporting an optional source-port-style mode for more permissive play and experimentation.
+Go-based Doom engine covering WAD loading, gameplay systems, rendering, audio, UI flow, and demo tooling. It preserves classic Doom behavior, while also offering an optional modernized mode with 32-bit color, higher resolutions, improved audio, and other quality-of-life upgrades.
 
 *Lines of Code:* ~81k
 
 **Highlights:**
-- Loads original Doom data directly with stacked `IWAD` + `PWAD` overlay support and strict map validation
-- Desktop Ebiten runtime with walk view, automap, menus, help screens, save/load, and in-session level transitions
-- Supports both a more faithful Doom-style profile and an optional source-port-oriented mode with conveniences like mouselook
-- Includes Doom v1.10 demo playback, live demo recording, JSONL state tracing, and profiling/benchmark workflows
+- Loads original Doom data directly with stacked `IWAD` and `PWAD` overlay support plus strict map validation
+- Desktop Ebiten runtime with first-person view, automap, menus, help screens, save/load, and seamless in-session level transitions
+- Supports both a fidelity-focused classic profile and an optional source-port-style mode with conveniences such as mouselook
+- Includes Doom v1.10 demo playback, live recording, JSONL state tracing, and profiling and benchmark workflows
 
 ### [goThoom](https://github.com/Distortions81/goThoom)
 **Language:** Go | **Complexity:** High
