@@ -34,12 +34,6 @@ Go-based Doom engine covering WAD loading, gameplay systems, rendering, audio, U
 
 *Lines of Code:* ~81k
 
-**Highlights:**
-- Loads original Doom data directly with stacked `IWAD` and `PWAD` overlay support plus strict map validation
-- Desktop Ebiten runtime with first-person view, automap, menus, help screens, save/load, and seamless in-session level transitions
-- Supports both a fidelity-focused classic profile and an optional source-port-style mode with conveniences such as mouselook
-- Includes Doom v1.10 demo playback, live recording, JSONL state tracing, and profiling and benchmark workflows
-
 ### [goThoom](https://github.com/Distortions81/goThoom)
 **Language:** Go | **Complexity:** High
 
