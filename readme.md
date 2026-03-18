@@ -66,6 +66,19 @@ Modern open-source client for the classic Clan Lord MMORPG. Cross-platform binar
 - Quality-of-life upgrades including text-to-speech and automatic asset fetching
 - Performance-focused rendering improvements, including de-dithering for legacy graphics
 
+### [GD-DOOM](https://github.com/Distortions81/GD-DOOM)
+**Language:** Go | **Complexity:** Very High
+
+Minimal Doom runtime, map parser, and renderer in Go, focused on faithful Doom behavior while also supporting optional source-port style conveniences.
+
+*Lines of Code:* ~80k
+
+**Highlights:**
+- Loads Doom WAD stacks with `IWAD` + `PWAD` overlay support and strict map-data validation
+- Desktop Doom runtime built on Ebiten with walk view, automap, frontend screens, and in-session level transitions
+- Includes demo playback, live demo recording, JSONL state tracing, and benchmark/profiling helpers
+- Uses OPL-style music synthesis via `ImpSynth` alongside digital SFX and configurable runtime/audio settings
+
 ### [M45-goPool](https://github.com/Distortions81/M45-goPool)
 **Language:** Go | **Complexity:** High
 
