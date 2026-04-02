@@ -30,9 +30,16 @@ A selection of repositories that reflect the range of systems, tools, and experi
 ### [GD-DOOM](https://github.com/Distortions81/GD-DOOM)
 **Language:** Go | **Complexity:** Very High
 
-Go-based Doom engine covering WAD loading, gameplay systems, rendering, audio, UI flow, and demo tooling. It preserves classic Doom behavior, while also offering an optional modernized mode with 32-bit color, higher resolutions, improved audio, and other quality-of-life upgrades.
+Go-based Doom engine with two presentation targets: a `Faithful` mode that stays close to vanilla Doom behavior, and a `Source Port` mode that enables 32-bit RGBA rendering, sub-tic interpolation for camera/things/weapons, OPL-style and SoundFont MIDI music backends, enhanced automap, and other quality-of-life upgrades. Loads original WAD data directly; supports IWAD/PWAD combinations, save/load, demo recording and playback, and runs in-browser via WebAssembly.
 
 *Lines of Code:* ~81k
+
+**Highlights:**
+- Dual render modes: faithful colormap-based shading vs. distance-lit source-port path with independent GPU sky
+- Sub-tic interpolation for camera yaw, thing positions, weapon sprites, and animated textures/flats
+- Two music backends: `impsynth` (OPL3-style, hardware feel) and `meltysynth` (SoundFont General MIDI)
+- Full game flow: episode/skill menus, save/load, demo playback/recording, in-game IWAD picker
+- Runs on Linux, Windows, macOS (Intel + Apple Silicon), and in-browser via WebAssembly
 
 ### [goThoom](https://github.com/Distortions81/goThoom)
 **Language:** Go | **Complexity:** High
