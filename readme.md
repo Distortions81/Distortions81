@@ -39,7 +39,7 @@ Go-based Doom engine covering WAD loading, gameplay systems, rendering, audio, U
 
 Modern open-source client for the classic Clan Lord MMORPG. Cross-platform desktop application built on Ebiten with OpenGL, DirectX, and Metal rendering, plus plugin support.
 
-*Lines of Code:* ~55k
+*Lines of Code:* ~43k
 
 **Highlights:**
 - Cross-platform desktop client built on Ebiten with OpenGL, DirectX, and Metal backends
@@ -52,7 +52,7 @@ Modern open-source client for the classic Clan Lord MMORPG. Cross-platform deskt
 
 Standalone Bitcoin mining pool designed to pair with Bitcoin Core over JSON-RPC and ZMQ, serve Stratum v1 miners over plain TCP or TLS, expose an HTTPS-first status UI and JSON API, manage TLS certificates automatically, and provide thorough configuration, operations, and testing documentation.
 
-*Lines of Code:* ~50k (including tests)
+*Lines of Code:* ~53k (including tests)
 
 **Highlights:**
 - Deep Bitcoin Core integration via JSON-RPC longpoll + ZMQ block feed for Stratum v1 mining
@@ -74,6 +74,17 @@ Active since 2017.
 - Server orchestration and process control for managing multiple game instances
 - Custom game/mod update workflows using the Factorio [Download API](https://wiki.factorio.com/Download_API) and [Mod Portal API](https://wiki.factorio.com/Mod_portal_API)
 - Real-time operations tooling with WebSockets, HTTP APIs, and live logging/diagnostics
+
+### [GoMUD2](https://github.com/Distortions81/GoMUD2)
+**Language:** Go | **Complexity:** Medium-High
+
+A full MUD server written in Go, featuring an online creation (OLC) world editor, telnet support with TLS, 256-color ANSI rendering, and a structured command/permission system.
+
+**Highlights:**
+- Telnet server with optional TLS for encrypted connections
+- In-game OLC world editor for building and modifying areas at runtime
+- 256-color ANSI terminal rendering with theme support
+- Permission and role system for player/builder/admin workflows
 
 ### [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView)
 **Language:** Go | **Complexity:** Medium
