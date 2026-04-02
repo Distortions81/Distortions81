@@ -32,6 +32,7 @@ A selection of repositories that reflect the range of systems, tools, and experi
 
 Go-based Doom engine with two presentation targets: a `Faithful` mode that stays close to vanilla Doom behavior, and a `Source Port` mode that enables 32-bit RGBA rendering, sub-tic interpolation for camera/things/weapons, OPL-style and SoundFont MIDI music backends, enhanced automap, and other quality-of-life upgrades. Loads original WAD data directly; supports IWAD/PWAD combinations, save/load, demo recording and playback, and runs in-browser via WebAssembly.
 
+[Play in browser](https://m45sci.xyz/u/dist/GD-DOOM/)
 *Lines of Code:* ~81k
 
 **Highlights:**
