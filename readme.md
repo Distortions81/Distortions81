@@ -24,6 +24,76 @@ In practice, that means building systems, observing how they behave, and refinin
 
 ---
 
+## Project Snapshots
+Small thumbnails from projects where visuals help show the work at a glance.
+
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/GD-DOOM">
+        <img src="assets/project-thumbnails/gd-doom.png" alt="GD-DOOM gameplay thumbnail" width="150"><br>
+        <sub>GD-DOOM</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/GD-WOLF">
+        <img src="assets/project-thumbnails/gd-wolf.png" alt="GD-WOLF gameplay thumbnail" width="150"><br>
+        <sub>GD-WOLF</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/M45-goPool">
+        <img src="assets/project-thumbnails/m45-gopool.png" alt="M45-goPool dashboard thumbnail" width="150"><br>
+        <sub>M45-goPool</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/M45-Core-Firmware">
+        <img src="assets/project-thumbnails/m45-core-firmware.png" alt="M45-Core-Firmware stats thumbnail" width="150"><br>
+        <sub>M45-Core-Firmware</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/goThoom">
+        <img src="assets/project-thumbnails/gothoom.png" alt="goThoom client thumbnail" width="150"><br>
+        <sub>goThoom</sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <a href="https://github.com/M45-Science/ChatWire">
+        <img src="assets/project-thumbnails/chatwire.png" alt="ChatWire logo thumbnail" width="150"><br>
+        <sub>ChatWire</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/ONI-SeedView">
+        <img src="assets/project-thumbnails/oni-seedview.png" alt="ONI-SeedView map thumbnail" width="150"><br>
+        <sub>ONI-SeedView</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/EUI">
+        <img src="assets/project-thumbnails/eui.png" alt="EUI demo thumbnail" width="150"><br>
+        <sub>EUI</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/PixelPirates">
+        <img src="assets/project-thumbnails/pixelpirates.png" alt="PixelPirates gameplay thumbnail" width="150"><br>
+        <sub>PixelPirates</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/ImpSynth">
+        <img src="assets/project-thumbnails/impsynth.png" alt="ImpSynth logo thumbnail" width="150"><br>
+        <sub>ImpSynth</sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## Featured Projects
 A selection of repositories that reflect the range of systems, tools, and experiments I work on, ordered roughly by complexity, scope, and technical depth.
 
@@ -41,6 +111,20 @@ Go-based Doom engine with two presentation targets: a `Faithful` mode that stays
 - Two music backends: `impsynth` (OPL3-style, hardware feel) and `meltysynth` (SoundFont General MIDI)
 - Full game flow: episode/skill menus, save/load, demo playback/recording, in-game IWAD picker
 - Runs on Linux, Windows, macOS (Intel + Apple Silicon), and in-browser via WebAssembly
+
+### [GD-WOLF](https://github.com/Distortions81/GD-WOLF)
+**Language:** Go | **Complexity:** High
+
+Go/Ebiten Wolfenstein 3D port focused on gameplay parity with native and WebAssembly targets. It includes software raycast rendering, HUD/status presentation, save-slot previews, persistent settings, spatial audio, and optional modern render modes.
+
+*Lines of Code:* ~28.6k
+
+**Highlights:**
+- Wolfenstein 3D-style raycast renderer, status bar, pause/options menus, elevators, and level transitions
+- Native and browser builds, with embedded shareware fallback data for the WebAssembly target
+- Save slot previews with thumbnails plus browser save persistence on wasm
+- Selectable `DOS`, `HQ`, and `ULTRA` render modes with configurable input, audio, and VSync settings
+- Enemy parity work supported by fuzz, harness, and soak-test tooling
 
 ### [goThoom](https://github.com/Distortions81/goThoom)
 **Language:** Go | **Complexity:** High
@@ -67,6 +151,20 @@ Standalone Bitcoin mining pool designed to pair with Bitcoin Core over JSON-RPC 
 - Production-minded pool controls: rate limiting, invalid-share bans, reconnect churn mitigation, and TLS support
 - Configurable coinbase split handling for fees, donations, and miner payouts
 - Strong ops/testing ergonomics with install scripts, profiling helpers, and detailed `operations.md`, `performance.md`, and `TESTING.md`
+
+### [M45-Core-Firmware](https://github.com/Distortions81/M45-Core-Firmware)
+**Language:** C/C++ | **Complexity:** High
+
+ESP32-WROOM-32 Bitcoin mining firmware built with ESP-IDF. It combines Stratum mining, hardware SHA candidate loops, OLED/LCD status surfaces, and local web setup, stats, and settings pages for a compact standalone miner controller.
+
+*Lines of Code:* ~12.7k
+
+**Highlights:**
+- ESP-IDF build, environment-check, flash, serial-monitor, and benchmark helper scripts
+- Stratum mining flow covering protocol parsing, target handling, share queues, self-checks, and task management
+- OLED display UI plus optional ideaspark LCD target and local web status/settings/setup pages
+- README-reported firmware profile: 740 KiB binary, 108 KiB IRAM, 62 KiB DRAM, and 620 kH/s average mining speed as of April 2026
+- Hardware-focused implementation for ESP32-WROOM-32 constraints
 
 ### [ChatWire](https://github.com/M45-Science/ChatWire)
 **Language:** Go | **Complexity:** High
@@ -108,6 +206,21 @@ WebAssembly map seed viewer for [Oxygen Not Included](https://www.klei.com/games
 - Export support for high-resolution printable maps
 - Mobile-friendly touch controls and alternate viewer integration on [MapsNotIncluded.org](https://mapsnotincluded.org/map-explorer/SNDST-A-1-0-0-0)
 
+### [EUI](https://github.com/Distortions81/EUI)
+**Language:** Go | **Complexity:** Medium
+
+Minimal retained-mode UI library for Ebiten, using vector-drawn windows, flows, widgets, themes, and scaling logic for game and tool interfaces.
+
+[Live demo](https://m45sci.xyz/u/dist/eui/)
+*Lines of Code:* ~9.2k
+
+**Highlights:**
+- Draggable and resizable windows, overlay items, portal windows, and flow layouts
+- JSON-backed palettes and styles with runtime theme switching and auto-reload support
+- UI scaling, cached widget rendering, tree dumps, debug overlays, and touch support
+- Common controls including buttons, sliders, checkboxes, radios, dropdowns, hidden inputs, image labels, and tooltips
+- Runs anywhere Ebiten runs, including desktop, web, and mobile targets
+
 ### Factorio [SoftMod](https://github.com/M45-Science/SoftMod) (for [M45-Science](https://github.com/M45-Science))
 **Language:** Lua | **Complexity:** Medium-High
 
@@ -148,6 +261,34 @@ Compact OPL3-style FM synthesis library in Go focused on the practical DMX/Doom-
 - Simple register-driven API with stereo `int16` PCM generation
 - Includes an example renderer that converts melody CSV + patch JSON inputs into `.wav` output
 - Zero-allocation PCM benchmark noted in the repo docs for real-time-friendly synthesis work
+
+### [GoBeep86](https://github.com/Distortions81/GoBeep86)
+**Language:** Go | **Complexity:** Medium-Low
+
+PC speaker audio emulator for Go programs that need retro beeps, simple music, or sound effects with physical speaker and case coloration instead of a clean square wave.
+
+*Lines of Code:* ~1.5k
+
+**Highlights:**
+- Simulates clean, paper-cone speaker, and piezo-style output variants
+- Adds steel-case resonance and ringing for old-machine speaker character
+- Supports streaming through an `io.Reader` source or offline rendering to stereo `int16` PCM
+- Can interleave effect and music tone sequences to emulate a single physical speaker
+- Accepts PIT-divisor tone streams and PCM music re-driven through a simulated 1-bit speaker path
+
+### [go-g726](https://github.com/Distortions81/go-g726)
+**Language:** Go | **Complexity:** Medium-Low
+
+G.726 ADPCM codec library for mono 8 kHz audio, with explicit 2, 3, 4, and 5 bits-per-sample modes and streaming-safe encoder/decoder state handling.
+
+*Lines of Code:* ~1.8k
+
+**Highlights:**
+- Stateful `Encoder` and `Decoder` types for continuous audio streams
+- One-shot helpers for simple buffer-to-buffer conversions
+- Size helpers and framing validation for each supported bit depth
+- Reset support for independent packets or clips
+- Recent work focused on streaming state correctness and packed-group behavior for non-4-bit modes
 
 ### [numfmt](https://github.com/Distortions81/numfmt)
 **Language:** Go | **Complexity:** Medium-Low
@@ -217,6 +358,20 @@ Minimal Factorio server browser with a web interface. Polls servers on a schedul
 - Server polling and caching
 - Front-end/back-end integration
 - Uses [matchmaking](https://wiki.factorio.com/Matchmaking_API) API
+
+### [DownloadProxy](https://github.com/M45-Science/DownloadProxy)
+**Language:** Go | **Complexity:** Medium-Low
+
+Local HTTP caching proxy for Factorio server environments, designed to reduce repeated upstream downloads for server automation running behind ChatWire on a trusted LAN.
+
+*Lines of Code:* ~2.1k
+
+**Highlights:**
+- Restricts access to localhost and an explicit Factorio-focused upstream allowlist
+- Caches release downloads, checksum files, mod downloads, and selected API responses on disk
+- Preserves useful upstream metadata such as content type, ETag, last-modified, and disposition headers
+- Throttles cache misses before contacting upstream servers
+- Keeps the design intentionally narrow instead of acting as a general-purpose open proxy
 
 ### [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText)
 **Language:** Go | **Complexity:** Medium
