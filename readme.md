@@ -16,14 +16,6 @@ I value efficiency and leverage through automation, clear interfaces, and practi
 
 In practice, that means building systems, observing how they behave, and refining them until they are reliable, understandable, and useful.
 
-
-### Links
-- [Project Gallery](https://m45sci.xyz/u/dist/)
-- [M45-Science GitHub](https://github.com/orgs/M45-Science/repositories)
-- [m45core.com](https://m45core.com)
-
----
-
 ## Project Snapshots
 Small thumbnails from projects where visuals help show the work at a glance.
 
