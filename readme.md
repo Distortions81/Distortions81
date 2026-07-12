@@ -89,7 +89,7 @@ Small thumbnails from projects where visuals help show the work at a glance.
 ## Featured Projects
 A selection of repositories that reflect the range of systems, tools, and experiments I work on, ordered roughly by complexity, scope, and technical depth.
 
-Repository metadata was refreshed from GitHub on July 7, 2026. Lines of code are approximate tracked source/text lines, excluding binary assets, vendored dependencies, and build output.
+Repository metadata was refreshed from GitHub on July 12, 2026. Lines of code are approximate tracked source/text lines, excluding binary assets, vendored dependencies, and build output.
 
 ### [GD-DOOM](https://github.com/Distortions81/GD-DOOM)
 **Language:** Go | **Complexity:** Very High
@@ -412,68 +412,95 @@ A tribute to a childhood type-in economic simulation, reimplemented in Go.
 - Game loop and economic modeling (Brownian noise)
 - Event-driven simulation
 
-## Public Repository Index
-Public, non-archived, non-fork repositories refreshed from GitHub on July 7, 2026. This table omits private repositories, forks, and profile-only repositories.
+## Curated Project Map
+Repository metadata was checked with GitHub CLI on July 12, 2026. Public repositories are linked. Private repositories are intentionally listed without links.
 
-| Repository | Owner | Language | Last Push | Description |
-| --- | --- | --- | --- | --- |
-| [M45-Gamma-Firmware](https://github.com/Distortions81/M45-Gamma-Firmware) | Distortions81 | C | 2026-07-07 | Experimental firmware for Gamma 602 devices |
-| [M45-goPool](https://github.com/Distortions81/M45-goPool) | Distortions81 | Go | 2026-07-06 | Solo btc mining pool software, written in golang |
-| [m45sci.xyz](https://github.com/M45-Science/m45sci.xyz) | M45-Science | HTML | 2026-07-03 | Our website |
-| [DaVinci-Resolve-Container](https://github.com/Distortions81/DaVinci-Resolve-Container) | Distortions81 | Shell | 2026-07-03 | DaVinci Resolve Container For Ubuntu 24.04 |
-| [ChatWire](https://github.com/M45-Science/ChatWire) | M45-Science | Go | 2026-07-01 | Factorio to Discord chat bridge and server manager |
-| [FactorioCommunityList](https://github.com/M45-Science/FactorioCommunityList) | M45-Science | - | 2026-07-01 | A public directory of Factorio communities that have public ban lists |
-| [Canon-Webcam-Linux](https://github.com/Distortions81/Canon-Webcam-Linux) | Distortions81 | Shell | 2026-06-28 | - |
-| [SoftMod](https://github.com/M45-Science/SoftMod) | M45-Science | Lua | 2026-06-27 | Scenario scripts for our Factorio servers |
-| [Market-Madness-TI99](https://github.com/Distortions81/Market-Madness-TI99) | Distortions81 | BASIC | 2026-06-23 | - |
-| [M45-Core-Firmware](https://github.com/Distortions81/M45-Core-Firmware) | Distortions81 | C++ | 2026-06-14 | esp32-wroom-32 btc mining firmware |
-| [GD-DOOM](https://github.com/Distortions81/GD-DOOM) | Distortions81 | Go | 2026-05-14 | A port of DOOM to golang |
-| [goThoom](https://github.com/Distortions81/goThoom) | Distortions81 | Go | 2026-05-13 | Clan Lord client written in golang |
-| [GD-WOLF](https://github.com/Distortions81/GD-WOLF) | Distortions81 | Go | 2026-04-30 | A port of Wolfenstein 3D to golang |
-| [GoBeep86](https://github.com/Distortions81/GoBeep86) | Distortions81 | Go | 2026-04-30 | PC Speaker beep emulator, with small speaker + pc case simulations |
-| [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser) | M45-Science | Go | 2026-04-19 | A web-accessible version of the Factorio server browser with caching |
-| [DownloadProxy](https://github.com/M45-Science/DownloadProxy) | M45-Science | Go | 2026-04-19 | A caching proxy for Factorio and Mod updates. |
-| [ImpSynth](https://github.com/Distortions81/ImpSynth) | Distortions81 | Go | 2026-04-18 | OPL-Like Synthesizer in golang |
-| [go-g726](https://github.com/Distortions81/go-g726) | Distortions81 | Go | 2026-04-07 | golang g.726 voice codec library |
-| [RelayClient](https://github.com/M45-Science/RelayClient) | M45-Science | Go | 2026-04-04 | A UDP-over-TCP network relay client |
-| [FactBanSync](https://github.com/M45-Science/FactBanSync) | M45-Science | Go | 2026-04-03 | Fetches and merges bans from different sources |
-| [RoleBot](https://github.com/M45-Science/RoleBot) | M45-Science | Go | 2026-04-01 | Easy op-in Discord roles |
-| [HelpBot](https://github.com/M45-Science/HelpBot) | M45-Science | Go | 2026-04-01 | Looks for keywords in chat and directs players to help resources |
-| [numfmt](https://github.com/Distortions81/numfmt) | Distortions81 | Go | 2026-02-27 | Make better use of 8 and 16 bit integer types |
-| [PCB-Frame](https://github.com/Distortions81/PCB-Frame) | Distortions81 | OpenSCAD | 2026-02-15 | OpenSCAD PCB display stand |
-| [Acoustic-Space-Rendering](https://github.com/Distortions81/Acoustic-Space-Rendering) | Distortions81 | Go | 2026-02-02 | OpenCL Experiment, Pressure Sim |
-| [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView) | Distortions81 | Go | 2026-01-29 | ONI seed viewer, written in Go w/ Ebiten. |
-| [goMMO](https://github.com/Distortions81/goMMO) | Distortions81 | Go | 2025-10-09 | Tiny mmo prototype in golang (client) |
-| [PixelPirates](https://github.com/Distortions81/PixelPirates) | Distortions81 | Go | 2025-08-30 | A concept for a 2D sailing adventure game |
-| [EUI](https://github.com/Distortions81/EUI) | Distortions81 | Go | 2025-08-12 | A minimal vector-based Ebitenengine retained-mode UI library |
-| [goClanLordSndExport](https://github.com/Distortions81/goClanLordSndExport) | Distortions81 | C | 2025-08-10 | export raw sound data from ClanLord |
-| [goClanLordImgExport](https://github.com/Distortions81/goClanLordImgExport) | Distortions81 | Go | 2025-08-10 | Clan Lord CL_Images image exporter |
-| [GoMUD2](https://github.com/Distortions81/GoMUD2) | Distortions81 | Go | 2025-07-22 | A very incomplete MUD base, written in go. |
-| [goXA](https://github.com/Distortions81/goXA) | Distortions81 | Go | 2025-07-21 | Go eXpress Archive - lightweight file archiving in Go. Simple and self-contained. |
-| [RelayUpdater](https://github.com/M45-Science/RelayUpdater) | M45-Science | Go | 2025-07-20 | Pushes out updated copies of the relayClient |
-| [QuickbarExchange](https://github.com/M45-Science/QuickbarExchange) | M45-Science | - | 2025-06-21 | Our quickbar exchange format |
-| [OpenCLFrac](https://github.com/Distortions81/OpenCLFrac) | Distortions81 | Go | 2025-06-19 | - |
-| [SolarLightCalc](https://github.com/Distortions81/SolarLightCalc) | Distortions81 | HTML | 2025-06-18 | Solar Garden Light Solar/Battery calculator. |
-| [goRaycast2](https://github.com/Distortions81/goRaycast2) | Distortions81 | Go | 2025-05-24 | playing with old-school ray-casting |
-| [goMarketMadness](https://github.com/Distortions81/goMarketMadness) | Distortions81 | Go | 2025-05-24 | A tribute to a type-in game I enjoyed as a kid |
-| [IrPowerOn](https://github.com/Distortions81/IrPowerOn) | Distortions81 | C++ | 2025-05-09 | Arduino project for automatically turning on TVs on power-up, via IR codes. |
-| [Collatz](https://github.com/Distortions81/Collatz) | Distortions81 | Go | 2025-05-09 | Tests the Collatz conjecture. |
-| [goPixelChat](https://github.com/Distortions81/goPixelChat) | Distortions81 | Go | 2025-05-09 | Let twitch chat draw pixels! |
-| [golang-frac](https://github.com/Distortions81/golang-frac) | Distortions81 | Go | 2025-05-09 | render high detail Mandelbrot for videos |
-| [goSnake](https://github.com/Distortions81/goSnake) | Distortions81 | Go | 2025-05-09 | Small multiplayer snake game (client) |
-| [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText) | Distortions81 | Go | 2025-05-09 | Demo showing recovery of blurred or pixelated text |
-| [SeqPrimeGo](https://github.com/Distortions81/SeqPrimeGo) | Distortions81 | Go | 2025-05-09 | Searches for sequential-number-sequence primes |
-| [goSnakeServ](https://github.com/Distortions81/goSnakeServ) | Distortions81 | Go | 2025-05-09 | Small multiplayer snake game (server) |
-| [goWordSearch](https://github.com/Distortions81/goWordSearch) | Distortions81 | Go | 2025-05-09 | - |
-| [goCardinal](https://github.com/Distortions81/goCardinal) | Distortions81 | Go | 2025-05-09 | Convert int64 to cardinal numerals |
-| [InterferencePattern](https://github.com/Distortions81/InterferencePattern) | Distortions81 | Go | 2025-05-09 | photon double-slit interference pattern simulator. |
-| [GoblinSiege](https://github.com/Distortions81/GoblinSiege) | Distortions81 | Go | 2025-05-09 | Twitch interactive tower defense game concept |
-| [goKillComments](https://github.com/Distortions81/goKillComments) | Distortions81 | Go | 2025-05-09 | Simple utility to remove all comments from golang files |
-| [QuickBanCombine](https://github.com/M45-Science/QuickBanCombine) | M45-Science | Go | 2025-05-09 | A simple utility for combining ban-list.json files |
-| [LiveLog](https://github.com/M45-Science/LiveLog) | M45-Science | HTML | 2025-05-09 | Simple javascript for live-viewing log files on the web. |
-| [MapArchiveCleaner](https://github.com/M45-Science/MapArchiveCleaner) | M45-Science | Go | 2025-05-09 | Utility for removing scenarios from old map archives. |
-| [MapSettings](https://github.com/M45-Science/MapSettings) | M45-Science | - | 2025-05-09 | Our map generators + settings |
-| [SteamConnectRedirect](https://github.com/M45-Science/SteamConnectRedirect) | M45-Science | Go | 2024-11-14 | A safe steam connect-URL redirect service |
-| [goMMOServ](https://github.com/Distortions81/goMMOServ) | Distortions81 | Go | 2024-10-17 | Tiny mmo prototype in golang (server) |
+### Most Intriguing First
+| Project | Visibility | Area | Why it stands out |
+| --- | --- | --- | --- |
+| [GD-DOOM](https://github.com/Distortions81/GD-DOOM) | Public | Game engine / WebAssembly | Full Doom engine work in Go with faithful and enhanced presentation modes, original WAD loading, save/demo support, native builds, and browser play. |
+| Encore-4A | Private | FPGA / retrocomputing | Verilog hardware work at the intersection of soft CPUs, classic systems, and low-level implementation. |
+| [M45-goPool](https://github.com/Distortions81/M45-goPool) | Public | Bitcoin infrastructure | Standalone mining pool with Bitcoin Core integration, Stratum serving, TLS, operational tooling, and production-minded failure controls. |
+| [M45-Gamma-Firmware](https://github.com/Distortions81/M45-Gamma-Firmware) | Public | Embedded firmware | Firmware for Bitaxe Gamma 602 miners with browser flashing, OTA packaging, safety controls, and hardware-facing diagnostics. |
+| [M45-Core-Firmware](https://github.com/Distortions81/M45-Core-Firmware) | Public | Embedded firmware | ESP32 mining controller firmware combining Stratum, hardware SHA loops, display UI, web setup, stats, and settings. |
+| [goThoom](https://github.com/Distortions81/goThoom) | Public | Desktop client | Modern Clan Lord client in Go/Ebiten with cross-platform rendering, plugin support, asset handling, and accessibility-oriented features. |
+| [GD-WOLF](https://github.com/Distortions81/GD-WOLF) | Public | Game engine / WebAssembly | Wolfenstein 3D-style engine work with software raycasting, save previews, browser persistence, and selectable render modes. |
+| [ChatWire](https://github.com/M45-Science/ChatWire) | Public | Game server operations | Long-running Discord and Factorio bridge with moderation, server orchestration, HTTP APIs, WebSockets, and live ops tooling. |
+| Facility38 | Private | Simulation | Massively parallel game simulation proof-of-concept focused on scale and systems behavior. |
+| TMX9999-FPGA | Private | FPGA / CPU design | Verilog CPU work targeting the TMS9900 instruction set on Tang Nano hardware. |
+| [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView) | Public | Visualization / WebAssembly | Interactive Oxygen Not Included seed viewer using Go, Ebiten, map overlays, exports, and mobile-friendly controls. |
+| [EUI](https://github.com/Distortions81/EUI) | Public | UI toolkit | Retained-mode UI library for Ebiten with windows, flows, widgets, themes, scaling, debug overlays, and touch support. |
+
+### Hardware, Infrastructure, and Ops
+| Project | Visibility | Language | Notes |
+| --- | --- | --- | --- |
+| [M45-goPool](https://github.com/Distortions81/M45-goPool) | Public | Go | Bitcoin pool software with JSON-RPC/ZMQ integration, Stratum, TLS, metrics, and hardening controls. |
+| [M45-Gamma-Firmware](https://github.com/Distortions81/M45-Gamma-Firmware) | Public | C | Gamma 602 firmware, Web Serial flashing, OTA flow, dashboard, and ASIC safety controls. |
+| [M45-Core-Firmware](https://github.com/Distortions81/M45-Core-Firmware) | Public | C++ | ESP32-WROOM-32 Bitcoin mining firmware with display and local web UI. |
+| Encore-4A | Private | Verilog | FPGA retrocomputing work. |
+| LM32-FPGA | Private | Verilog | FPGA soft CPU work using LM32 tooling. |
+| TMX9999-FPGA | Private | Verilog | FPGA CPU compatible with the TMS9900 instruction set. |
+| ProtonSync | Private | Go | Systems automation / sync tooling. |
+| [DaVinci-Resolve-Container](https://github.com/Distortions81/DaVinci-Resolve-Container) | Public | Shell | Containerized DaVinci Resolve workflow for Ubuntu 24.04. |
+| [Canon-Webcam-Linux](https://github.com/Distortions81/Canon-Webcam-Linux) | Public | Shell | Linux webcam support tooling. |
+| [PCB-Frame](https://github.com/Distortions81/PCB-Frame) | Public | OpenSCAD | Parametric PCB display stand. |
+
+### Games, Clients, and Interactive Tools
+| Project | Visibility | Language | Notes |
+| --- | --- | --- | --- |
+| [GD-DOOM](https://github.com/Distortions81/GD-DOOM) | Public | Go | Doom engine, browser target, save/load, demos, and enhanced rendering/audio paths. |
+| [GD-WOLF](https://github.com/Distortions81/GD-WOLF) | Public | Go | Wolfenstein 3D-style engine with native and browser builds. |
+| [goThoom](https://github.com/Distortions81/goThoom) | Public | Go | Cross-platform Clan Lord client with plugin support. |
+| [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView) | Public | Go | Interactive ONI seed viewer and map export tool. |
+| [PixelPirates](https://github.com/Distortions81/PixelPirates) | Public | Go | Retro sailing prototype with procedural sky and custom music synthesis. |
+| [goMMO](https://github.com/Distortions81/goMMO) / [goMMOServ](https://github.com/Distortions81/goMMOServ) | Public | Go | Small-world MMO networking prototype and server. |
+| [GoMUD2](https://github.com/Distortions81/GoMUD2) | Public | Go | MUD server with telnet, TLS, ANSI rendering, OLC, and roles. |
+| LumenClay | Private | Go | MUD project work. |
+| Void-Colony | Private | Go | Game prototype work. |
+| Shellworld | Private | Go | Web-based terminal game prototype. |
+| [goMarketMadness](https://github.com/Distortions81/goMarketMadness) / [Market-Madness-TI99](https://github.com/Distortions81/Market-Madness-TI99) | Public | Go / BASIC | Reimplementation and source preservation for a childhood type-in economic game. |
+
+### Libraries, Media, and Experiments
+| Project | Visibility | Language | Notes |
+| --- | --- | --- | --- |
+| [EUI](https://github.com/Distortions81/EUI) | Public | Go | Retained-mode UI toolkit for Ebiten projects. |
+| [ImpSynth](https://github.com/Distortions81/ImpSynth) | Public | Go | OPL-style FM synthesis library focused on Doom/DMX-era register workflows. |
+| [GoBeep86](https://github.com/Distortions81/GoBeep86) | Public | Go | PC speaker emulator with physical speaker and case coloration. |
+| [go-g726](https://github.com/Distortions81/go-g726) | Public | Go | Streaming-safe G.726 ADPCM codec library. |
+| [numfmt](https://github.com/Distortions81/numfmt) | Public | Go | Compact numeric encoding with tunable precision and small payload formats. |
+| [goXA](https://github.com/Distortions81/goXA) | Public | Go | Lightweight archive format with compression, checksums, permissions, and FEC options. |
+| [Acoustic-Space-Rendering](https://github.com/Distortions81/Acoustic-Space-Rendering) | Public | Go | OpenCL pressure simulation experiment. |
+| [OpenCLFrac](https://github.com/Distortions81/OpenCLFrac) / [golang-frac](https://github.com/Distortions81/golang-frac) | Public | Go | Fractal rendering experiments across CPU and OpenCL paths. |
+| [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText) | Public | Go | Demonstrates brute-force recovery of blurred or pixelated text. |
+| QR-Img | Private | Go | Image/QR experiment. |
+| GFEC | Private | Go | Experimental forward error correction encoding. |
+| Network-Sim | Private | Go | Network simulation work. |
+
+### M45-Science Operations and Factorio Tooling
+| Project | Visibility | Language | Notes |
+| --- | --- | --- | --- |
+| [ChatWire](https://github.com/M45-Science/ChatWire) | Public | Go | Discord-to-Factorio bridge, server manager, APIs, and live diagnostics. |
+| [SoftMod](https://github.com/M45-Science/SoftMod) | Public | Lua | Scenario scripting for M45-Science Factorio servers. |
+| [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser) | Public | Go | Cached web-accessible Factorio server browser. |
+| [DownloadProxy](https://github.com/M45-Science/DownloadProxy) | Public | Go | Narrow caching proxy for Factorio releases, mods, and API responses. |
+| [FactBanSync](https://github.com/M45-Science/FactBanSync) | Public | Go | Ban-list synchronization and merge tooling. |
+| [FactorioCommunityList](https://github.com/M45-Science/FactorioCommunityList) | Public | Data | Public directory of Factorio communities with public ban lists. |
+| [RelayClient](https://github.com/M45-Science/RelayClient) / [RelayUpdater](https://github.com/M45-Science/RelayUpdater) | Public | Go | Network relay client and update deployment tooling. |
+| [RoleBot](https://github.com/M45-Science/RoleBot) / [HelpBot](https://github.com/M45-Science/HelpBot) | Public | Go | Discord support automation. |
+| [QuickBanCombine](https://github.com/M45-Science/QuickBanCombine), [MapArchiveCleaner](https://github.com/M45-Science/MapArchiveCleaner), [MapSettings](https://github.com/M45-Science/MapSettings) | Public | Go / Data | Small operational tools and data used around Factorio server administration. |
+| FactMapGen | Private | Go | Factorio map generation tooling. |
+| FactModDatDecode | Private | Go | Factorio mod data decoding work. |
+
+### Smaller Public Utilities
+| Project | Language | Notes |
+| --- | --- | --- |
+| [SolarLightCalc](https://github.com/Distortions81/SolarLightCalc) | HTML | Solar garden light solar/battery calculator. |
+| [IrPowerOn](https://github.com/Distortions81/IrPowerOn) | C++ | Arduino IR power-on helper for TVs. |
+| [goClanLordImgExport](https://github.com/Distortions81/goClanLordImgExport) / [goClanLordSndExport](https://github.com/Distortions81/goClanLordSndExport) | Go / C | Clan Lord asset extraction tools. |
+| [goPixelChat](https://github.com/Distortions81/goPixelChat) | Go | Twitch chat pixel canvas experiment. |
+| [goRaycast2](https://github.com/Distortions81/goRaycast2) | Go | Old-school raycasting experiment. |
+| [goSnake](https://github.com/Distortions81/goSnake) / [goSnakeServ](https://github.com/Distortions81/goSnakeServ) | Go | Small multiplayer snake client/server. |
+| [Collatz](https://github.com/Distortions81/Collatz), [SeqPrimeGo](https://github.com/Distortions81/SeqPrimeGo), [InterferencePattern](https://github.com/Distortions81/InterferencePattern) | Go | Math and simulation experiments. |
+| [goWordSearch](https://github.com/Distortions81/goWordSearch), [goCardinal](https://github.com/Distortions81/goCardinal), [goKillComments](https://github.com/Distortions81/goKillComments) | Go | Small text, number, and source-processing utilities. |
 
 _Thank you for visiting._
