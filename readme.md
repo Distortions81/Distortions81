@@ -82,9 +82,9 @@ Small thumbnails from projects where visuals help show the work at a glance.
       </a>
     </td>
     <td align="center" width="20%">
-      <a href="https://github.com/Distortions81/ImpSynth">
-        <img src="assets/project-thumbnails/impsynth.png" alt="ImpSynth logo thumbnail" width="150"><br>
-        <sub>ImpSynth</sub>
+      <a href="https://mapgen.m45sci.xyz/">
+        <img src="assets/project-thumbnails/factmapgen.png" alt="FactMapGen editor and map preview thumbnail" width="150"><br>
+        <sub>FactMapGen</sub>
       </a>
     </td>
   </tr>
@@ -102,10 +102,11 @@ A short public shortlist for the work I would point people to first. Private and
 | [GD-WOLF](https://github.com/Distortions81/GD-WOLF) | Go game engine / WebAssembly | Wolfenstein 3D-style engine with software raycasting, save previews, browser persistence, spatial audio, and selectable render modes. [Play](https://m45sci.xyz/u/dist/GD-WOLF/) |
 | [goThoom](https://github.com/Distortions81/goThoom) | Desktop game client | Modern Clan Lord client built on Ebiten with cross-platform rendering, plugins, text-to-speech, asset fetching, and legacy graphics cleanup. |
 | [ChatWire](https://github.com/M45-Science/ChatWire) | Game server operations | Long-running Discord-to-Factorio bridge with moderation workflows, server orchestration, HTTP APIs, WebSockets, and live diagnostics. [Community](https://m45sci.xyz/) [M45-Science GitHub](https://github.com/M45-Science) |
+| FactMapGen | Factorio map tooling | Private Go web app for editing map-generation settings, managing authenticated and audited presets, and previewing Nauvis and Space Age planets with a native renderer or exact headless Factorio. [Editor](https://mapgen.m45sci.xyz/) |
 | [EUI](https://github.com/Distortions81/EUI) | UI toolkit | Retained-mode Ebiten UI library with windows, widgets, themes, scaling, debug overlays, touch support, and a browser demo. [Demo](https://m45sci.xyz/u/dist/eui/) |
 
 ## Curated Project Map
-Repository metadata was checked with GitHub CLI on July 12, 2026 across `Distortions81` and the [M45-Science GitHub organization](https://github.com/M45-Science). Public repositories are linked. Private repositories are intentionally named without links.
+Repository metadata was checked with GitHub CLI on July 26, 2026 across `Distortions81` and the [M45-Science GitHub organization](https://github.com/M45-Science). Public repositories are linked. Private repositories are intentionally named without links.
 
 The ranked list favors visible engineering depth, hardware validation, operational use, and cross-domain integration over recency alone. Smaller utilities, mirrors, and lightly modified forks are grouped lower or omitted from the main ranking.
 
@@ -115,21 +116,24 @@ The ranked list favors visible engineering depth, hardware validation, operation
 | 1 | [GD-DOOM](https://github.com/Distortions81/GD-DOOM) | Public | Game engine / WebAssembly | Full Doom engine work in Go with faithful and enhanced presentation modes, WAD loading, save/load, demo support, native builds, and browser play. |
 | 2 | Encore-4A | Private | FPGA / retrocomputing | Passive TI-99/4A side-port snooper for Tang Nano 20K that reconstructs VDP/PSG state, outputs HDMI video and audio, and supports emulator-fed replay. |
 | 3 | FocusTerm | Private | FPGA / embedded terminal | Tang Nano 20K hardware terminal with a shared 80x24 display pipeline, multi-video FPGA target, and optional ESP32 SSH/SPI companion firmware. |
-| 4 | [TangMiner](https://github.com/Distortions81/TangMiner) | Public | FPGA / Bitcoin hardware | SpinalHDL/Scala Bitcoin hash engine for Sipeed Tang Nano boards, paired with a host Stratum client and strict hardware nonce validation. |
-| 5 | [M45-goPool](https://github.com/Distortions81/M45-goPool) | Public | Bitcoin infrastructure | Standalone mining pool with Bitcoin Core RPC/ZMQ integration, Stratum serving, TLS, status UI/API, rate limiting, bans, and operations docs. [Pool](https://m45core.com/) |
-| 6 | [M45-Gamma-Firmware](https://github.com/Distortions81/M45-Gamma-Firmware) | Public | Embedded firmware | Bitaxe Gamma 602 firmware with Web Serial flashing, OTA packaging, live dashboard, PMBus/fan/OLED integration, and safety controls. |
-| 7 | [M45-Core-Firmware](https://github.com/Distortions81/M45-Core-Firmware) | Public | Embedded firmware | ESP32-WROOM-32 mining controller firmware combining Stratum, hardware SHA candidate loops, display UI, local setup, stats, and settings pages. |
-| 8 | TMX9999-FPGA | Private | FPGA / CPU design | TMS9900-compatible soft CPU and SoC work with HDMI text/graphics output, UART monitor, flash-loaded firmware, and compiled BASIC bring-up. |
-| 9 | LM32-FPGA | Private | FPGA / CPU design | Direct LM32 integer soft CPU SoC with initialized RAM, UART, LED I/O, HDMI console/graphics modes, flash filesystem access, and benchmark tooling. |
-| 10 | [GD-WOLF](https://github.com/Distortions81/GD-WOLF) | Public | Game engine / WebAssembly | Wolfenstein 3D-style engine in Go with software raycasting, save previews, browser persistence, native builds, and selectable render modes. [Play](https://m45sci.xyz/u/dist/GD-WOLF/) |
-| 11 | [goThoom](https://github.com/Distortions81/goThoom) | Public | Desktop client | Modern Clan Lord client with Ebiten render backends, runtime plugin support, asset handling, text-to-speech, and legacy-graphics cleanup. |
-| 12 | [ChatWire](https://github.com/M45-Science/ChatWire) | Public | Game server operations | Long-running Discord-to-Factorio bridge with moderation, server orchestration, HTTP APIs, WebSockets, live logging, and production use since 2017. [Community](https://m45sci.xyz/) [M45-Science GitHub](https://github.com/M45-Science) |
-| 13 | FactMapGen | Private | Factorio tooling | Browser editor for Factorio map generation/settings files with authentication, auditing, preset management, and queued headless Factorio preview rendering. [Editor](https://mapgen.m45sci.xyz/) [M45-Science GitHub](https://github.com/M45-Science) |
-| 14 | Facility38 | Private | Simulation | Massively parallel game simulation proof-of-concept focused on scale, resource flows, and systems behavior. |
-| 15 | [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView) | Public | Visualization / WebAssembly | Interactive Oxygen Not Included seed viewer using Go/Ebiten, map overlays, export support, and mobile-friendly controls. |
-| 16 | [EUI](https://github.com/Distortions81/EUI) | Public | UI toolkit | Retained-mode Ebiten UI library with windows, flows, widgets, themes, scaling, debug overlays, and touch support. |
-| 17 | [GoMUD2](https://github.com/Distortions81/GoMUD2) | Public | Server runtime | Go MUD server with telnet, optional TLS, ANSI rendering, in-game OLC editing, and structured player/builder/admin roles. |
-| 18 | ProtonSync | Private | Linux automation | Upload-first Proton Drive sync helper with inotify watching, stability checks, hashed state, terminal UI, and explicit safety modes. |
+| 4 | Project-Retrace | Private | FPGA / graphics platform | Tang Console 138K graphics system with 720p HDMI text and packed framebuffers, an in-tree MC68000-compatible soft CPU, flash-loaded apps, BL616 USB input, and simulation and hardware flows. |
+| 5 | [TangMiner](https://github.com/Distortions81/TangMiner) | Public | FPGA / Bitcoin hardware | Tang Nano FPGA hash engine for Sipeed Tang Nano boards, paired with a host Stratum client and strict hardware nonce validation. |
+| 6 | VectorFGPA | Private | FPGA / vector graphics | Framebufferless Tang Mega 138K vector engine driving 720p HDMI and analog oscilloscope X/Y from one atomic UART-fed list, including live Doom demo streaming. |
+| 7 | [M45-goPool](https://github.com/Distortions81/M45-goPool) | Public | Bitcoin infrastructure | Standalone mining pool with Bitcoin Core RPC/ZMQ integration, Stratum serving, TLS, status UI/API, rate limiting, bans, and operations docs. [Pool](https://m45core.com/) |
+| 8 | [M45-Gamma-Firmware](https://github.com/Distortions81/M45-Gamma-Firmware) | Public | Embedded firmware | Bitaxe Gamma 602 firmware with Web Serial flashing, OTA packaging, live dashboard, PMBus/fan/OLED integration, and safety controls. |
+| 9 | [M45-Core-Firmware](https://github.com/Distortions81/M45-Core-Firmware) | Public | Embedded firmware | ESP32-WROOM-32 mining controller firmware combining Stratum, hardware SHA candidate loops, display UI, local setup, stats, and settings pages. |
+| 10 | TMX9999-FPGA | Private | FPGA / CPU design | TMS9900-compatible soft CPU and SoC work with HDMI text/graphics output, UART monitor, flash-loaded firmware, and compiled BASIC bring-up. |
+| 11 | LM32-FPGA | Private | FPGA / CPU design | Direct LM32 integer soft CPU SoC with initialized RAM, UART, LED I/O, HDMI console/graphics modes, flash filesystem access, and benchmark tooling. |
+| 12 | FactMapGen | Private | Factorio tooling | Go browser editor for Factorio map-generation settings with guest workspaces, authenticated and audited presets, a native fast preview renderer for Nauvis and Space Age planets, and queued exact Factorio renders. [Editor](https://mapgen.m45sci.xyz/) [M45-Science GitHub](https://github.com/M45-Science) |
+| 13 | [GD-WOLF](https://github.com/Distortions81/GD-WOLF) | Public | Game engine / WebAssembly | Wolfenstein 3D-style engine in Go with software raycasting, save previews, browser persistence, native builds, and selectable render modes. [Play](https://m45sci.xyz/u/dist/GD-WOLF/) |
+| 14 | [goThoom](https://github.com/Distortions81/goThoom) | Public | Desktop client | Modern Clan Lord client with Ebiten render backends, runtime plugin support, asset handling, text-to-speech, and legacy-graphics cleanup. |
+| 15 | [ChatWire](https://github.com/M45-Science/ChatWire) | Public | Game server operations | Long-running Discord-to-Factorio bridge with moderation, server orchestration, HTTP APIs, WebSockets, live logging, and production use since 2017. [Community](https://m45sci.xyz/) [M45-Science GitHub](https://github.com/M45-Science) |
+| 16 | Facility38 | Private | Simulation | Massively parallel game simulation proof-of-concept focused on scale, resource flows, and systems behavior. |
+| 17 | BatteryMesh | Private | Embedded telemetry | ESP32/ESP-NOW store-and-forward battery telemetry with sensor, relay, gateway, and bridge roles, plus BLE and self-hosted web dashboards, current measurement, and capacity tracking. |
+| 18 | [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView) | Public | Visualization / WebAssembly | Interactive Oxygen Not Included seed viewer using Go/Ebiten, map overlays, export support, and mobile-friendly controls. |
+| 19 | [EUI](https://github.com/Distortions81/EUI) | Public | UI toolkit | Retained-mode Ebiten UI library with windows, flows, widgets, themes, scaling, debug overlays, and touch support. |
+| 20 | [GoMUD2](https://github.com/Distortions81/GoMUD2) | Public | Server runtime | Go MUD server with telnet, optional TLS, ANSI rendering, in-game OLC editing, and structured player/builder/admin roles. |
+| 21 | ProtonSync | Private | Linux automation | Upload-first Proton Drive sync helper with inotify watching, stability checks, hashed state, terminal UI, and explicit safety modes. |
 
 ### Public Work By Area
 | Area | Repositories |
@@ -143,8 +147,8 @@ The ranked list favors visible engineering depth, hardware validation, operation
 ### Private Work Represented Without Links
 | Area | Repositories | Why they matter |
 | --- | --- | --- |
-| FPGA and retro hardware | Encore-4A, FocusTerm, TMX9999-FPGA, LM32-FPGA | The strongest private cluster: FPGA video/audio, terminal hardware, soft CPU, and retro system work. |
-| Infrastructure and Bitcoin tooling | ProtonSync, PoolCensus, goBitaxeRemote, ScriptSigSearch, stratum-binary-batch, bitgraph | Automation, mining, data inspection, and operational tooling that complements the public Bitcoin/firmware projects. |
+| FPGA and retro hardware | Encore-4A, FocusTerm, Project-Retrace, VectorFGPA, TMX9999-FPGA, LM32-FPGA | The strongest private cluster: FPGA video/audio, terminal and vector-display hardware, soft CPUs, and retro system work. |
+| Infrastructure, embedded, and Bitcoin tooling | BatteryMesh, ProtonSync, PoolCensus, goBitaxeRemote, ScriptSigSearch, stratum-binary-batch, bitgraph | Telemetry, automation, mining, data inspection, and operational tooling that complements the public Bitcoin and firmware projects. |
 | Factorio operations | FactMapGen, FactModDatDecode, relayServer | Internal tooling around map generation, mod data decoding, and server infrastructure. |
 | Games and simulations | Facility38, LumenClay, Void-Colony, Shellworld, Network-Sim, TestGame06022026, GamePrototype18 | Larger private experiments in simulation, MUDs, terminal games, and prototype gameplay systems. |
 | Data, media, and encoding experiments | QR-Img, GFEC, chatCompress, dm_bias_fit, ottoWave, ottoWave2 | Focused experiments in image/QR handling, forward error correction, compression, audio, and modeling. |
