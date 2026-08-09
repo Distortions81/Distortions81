@@ -20,6 +20,10 @@ In practice, that means building systems, observing how they behave, and refinin
 
 My Factorio community and server-operations work lives under the [M45-Science GitHub organization](https://github.com/M45-Science). That org collects the public M45 Science Factorio tooling around Discord integration, moderation, server orchestration, community lists, download/proxy support, and related infrastructure.
 
+## Bitcoin / M45Core
+
+My Bitcoin mining software, firmware, and observability work lives under the [M45Core GitHub organization](https://github.com/M45Core). It includes the public M45-goPool, M45-Core-Firmware, and M45-Gamma-Firmware projects, along with related private operational tooling.
+
 ## Project Snapshots
 Small thumbnails from projects where visuals help show the work at a glance.
 
@@ -38,13 +42,13 @@ Small thumbnails from projects where visuals help show the work at a glance.
       </a>
     </td>
     <td align="center" width="20%">
-      <a href="https://github.com/Distortions81/M45-goPool">
+      <a href="https://github.com/M45Core/M45-goPool">
         <img src="assets/project-thumbnails/m45-gopool.png" alt="M45-goPool dashboard thumbnail" width="150"><br>
         <sub>M45-goPool</sub>
       </a>
     </td>
     <td align="center" width="20%">
-      <a href="https://github.com/Distortions81/M45-Core-Firmware">
+      <a href="https://github.com/M45Core/M45-Core-Firmware">
         <img src="assets/project-thumbnails/m45-core-firmware.png" alt="M45-Core-Firmware stats thumbnail" width="150"><br>
         <sub>M45-Core-Firmware</sub>
       </a>
@@ -102,7 +106,7 @@ Small thumbnails from projects where visuals help show the work at a glance.
       <sub>VectorFPGA</sub>
     </td>
     <td align="center" width="20%">
-      <a href="https://github.com/Distortions81/M45-Gamma-Firmware">
+      <a href="https://github.com/M45Core/M45-Gamma-Firmware">
         <img src="assets/project-thumbnails/m45-gamma-firmware.png" alt="M45-Gamma-Firmware dashboard thumbnail" width="150"><br>
         <sub>M45-Gamma-Firmware</sub>
       </a>
@@ -123,9 +127,9 @@ A short public shortlist for the work I would point people to first. Private and
 | --- | --- | --- |
 | [GD-DOOM](https://github.com/Distortions81/GD-DOOM) | Go game engine / WebAssembly | A full Doom engine with faithful and enhanced render modes, WAD loading, saves, demos, MIDI backends, native builds, and browser play. [Play](https://m45sci.xyz/u/dist/GD-DOOM/) |
 | [TangMiner](https://github.com/Distortions81/TangMiner) | FPGA Bitcoin hardware | Tang Nano FPGA hash engine in SpinalHDL/Scala, paired with a host Stratum client and strict real-hardware nonce validation. |
-| [M45-goPool](https://github.com/Distortions81/M45-goPool) | Bitcoin infrastructure | Standalone Go mining pool with Bitcoin Core RPC/ZMQ integration, Stratum serving, TLS, status UI/API, and operational hardening. [Pool](https://m45core.com/) |
+| [M45-goPool](https://github.com/M45Core/M45-goPool) | Bitcoin infrastructure | Standalone Go mining pool with Bitcoin Core RPC/ZMQ integration, Stratum serving, TLS, status UI/API, and operational hardening. [Pool](https://m45core.com/) |
 | [StratumStats](https://stratumstats.m45core.com/) | Bitcoin mining observability | Live, measurement-first dashboard comparing Bitcoin mining-pool block-template delivery, availability, Stratum connection and protocol timings, TLS, sample counts, and clearly separated fee evidence. |
-| [M45-Gamma-Firmware](https://github.com/Distortions81/M45-Gamma-Firmware) | Embedded miner firmware | Fast-booting, intentionally simple Bitaxe Gamma 602 firmware with overclocking tools and percentage-weighted multi-pool share splitting, plus Web Serial flashing, web-based updating, safety limits, and hardware diagnostics. [Flasher](https://distortions81.github.io/M45-Gamma-Firmware/) |
+| [M45-Gamma-Firmware](https://github.com/M45Core/M45-Gamma-Firmware) | Embedded miner firmware | Fast-booting, intentionally simple Bitaxe Gamma 602 firmware with overclocking tools and percentage-weighted multi-pool share splitting, plus Web Serial flashing, web-based updating, safety limits, and hardware diagnostics. [Flasher](https://distortions81.github.io/M45-Gamma-Firmware/) |
 | [GD-WOLF](https://github.com/Distortions81/GD-WOLF) | Go game engine / WebAssembly | Wolfenstein 3D-style engine with software raycasting, save previews, browser persistence, spatial audio, and selectable render modes. [Play](https://m45sci.xyz/u/dist/GD-WOLF/) |
 | [goThoom](https://github.com/Distortions81/goThoom) | Desktop game client | Modern cross-platform client for Clan Lord, a Macintosh-first game launched by [Delta Tao](https://www.deltatao.com/) in 1997 as one of the earliest graphical MMOs. Built with Ebiten, plugins, text-to-speech, asset fetching, and legacy graphics cleanup. |
 | [ChatWire](https://github.com/M45-Science/ChatWire) | Game server operations | Long-running Discord-to-Factorio bridge providing moderation, orchestration, HTTP APIs, WebSockets, and diagnostics for M45-Science. The wider M45-Science community has about 750 Discord members, 18 hosted map/server instances, a database tracking about 10,000 Factorio player names, and a 50 GB map archive. [M45-Science](https://m45sci.xyz/) [M45-Science GitHub](https://github.com/M45-Science) |
@@ -133,7 +137,7 @@ A short public shortlist for the work I would point people to first. Private and
 | [EUI](https://github.com/Distortions81/EUI) | UI toolkit | Retained-mode Ebiten UI library with windows, widgets, themes, scaling, debug overlays, touch support, and a browser demo. [Demo](https://m45sci.xyz/u/dist/eui/) |
 
 ## Curated Project Map
-Repository metadata was checked with GitHub CLI on August 8, 2026 across `Distortions81` and the [M45-Science GitHub organization](https://github.com/M45-Science). Public repositories are linked. Private repositories are intentionally named without links.
+Repository metadata was checked with GitHub CLI on August 9, 2026 across `Distortions81`, the [M45Core GitHub organization](https://github.com/M45Core), and the [M45-Science GitHub organization](https://github.com/M45-Science). Public repositories are linked. Private repositories are intentionally named without links.
 
 The ranked list favors visible engineering depth, hardware validation, operational use, and cross-domain integration over recency alone. Smaller utilities, mirrors, and lightly modified forks are grouped lower or omitted from the main ranking.
 
@@ -146,9 +150,9 @@ The ranked list favors visible engineering depth, hardware validation, operation
 | 4 | Project-Retrace | Private | FPGA / retrocomputing platform | A modern retro system designed to remain simple and understandable while adding modern conveniences—similar in spirit to the Commander X16, but targeting a more cost-effective and capable FPGA platform. Built around the Tang Console 138K with 720p HDMI text and packed framebuffers, an in-tree MC68000-compatible soft CPU, flash-loaded apps, and BL616 USB input. |
 | 5 | [TangMiner](https://github.com/Distortions81/TangMiner) | Public | FPGA / Bitcoin hardware | Tang Nano FPGA hash engine for Sipeed Tang Nano boards, paired with a host Stratum client and strict hardware nonce validation. |
 | 6 | VectorFPGA | Private | FPGA / vector graphics | FPGA renderer for a 3D vector interpretation of Doom, outputting either 720p HDMI or analog X/Y signals for an oscilloscope. Its framebufferless Tang Mega 138K engine drives both displays from one atomic UART-fed vector list. |
-| 7 | [M45-goPool](https://github.com/Distortions81/M45-goPool) | Public | Bitcoin infrastructure | Standalone mining pool with Bitcoin Core RPC/ZMQ integration, Stratum serving, TLS, status UI/API, rate limiting, bans, and operations docs. [Pool](https://m45core.com/) |
-| 8 | [M45-Gamma-Firmware](https://github.com/Distortions81/M45-Gamma-Firmware) | Public | Embedded firmware | Fast-booting, intentionally simple Bitaxe Gamma 602 firmware with overclocking tools and percentage-weighted multi-pool share splitting, plus Web Serial flashing, web-based updating, a live dashboard, PMBus/fan/OLED integration, and safety controls. [Flasher](https://distortions81.github.io/M45-Gamma-Firmware/) |
-| 9 | [M45-Core-Firmware](https://github.com/Distortions81/M45-Core-Firmware) | Public | Embedded firmware | Classic ESP32 mining firmware achieving about 620 kH/s on ESP32-WROOM-32 hardware, with Stratum, hardware SHA candidate loops, display UI, local setup, stats, and settings pages. [Flasher](https://distortions81.github.io/M45-Core-Firmware/) |
+| 7 | [M45-goPool](https://github.com/M45Core/M45-goPool) | Public | Bitcoin infrastructure | Standalone mining pool with Bitcoin Core RPC/ZMQ integration, Stratum serving, TLS, status UI/API, rate limiting, bans, and operations docs. [Pool](https://m45core.com/) |
+| 8 | [M45-Gamma-Firmware](https://github.com/M45Core/M45-Gamma-Firmware) | Public | Embedded firmware | Fast-booting, intentionally simple Bitaxe Gamma 602 firmware with overclocking tools and percentage-weighted multi-pool share splitting, plus Web Serial flashing, web-based updating, a live dashboard, PMBus/fan/OLED integration, and safety controls. [Flasher](https://distortions81.github.io/M45-Gamma-Firmware/) |
+| 9 | [M45-Core-Firmware](https://github.com/M45Core/M45-Core-Firmware) | Public | Embedded firmware | Classic ESP32 mining firmware achieving about 620 kH/s on ESP32-WROOM-32 hardware, with Stratum, hardware SHA candidate loops, display UI, local setup, stats, and settings pages. [Flasher](https://distortions81.github.io/M45-Core-Firmware/) |
 | 10 | TMX9999-FPGA | Private | FPGA / CPU design | TMS9900-compatible soft CPU and SoC work with HDMI text/graphics output, UART monitor, flash-loaded firmware, and compiled BASIC bring-up. |
 | 11 | LM32-FPGA | Private | FPGA / CPU design | Performance-focused attempt to build a fast, binary-compatible implementation of the LatticeMico32 instruction set as an FPGA soft CPU, wrapped in a small SoC with RAM, UART, LED I/O, HDMI output, flash storage, and benchmark tooling. |
 | 12 | FactMapGen | Private | Factorio tooling | Go browser editor for Factorio map-generation settings with guest workspaces, authenticated and audited presets, a native fast preview renderer for Nauvis and Space Age planets, and queued exact Factorio renders. [Editor](https://mapgen.m45sci.xyz/) [M45-Science GitHub](https://github.com/M45-Science) |
@@ -167,7 +171,7 @@ The ranked list favors visible engineering depth, hardware validation, operation
 ### Public Work By Area
 | Area | Repositories |
 | --- | --- |
-| Hardware, firmware, and infrastructure | [TangMiner](https://github.com/Distortions81/TangMiner), [ESP-Miner](https://github.com/Distortions81/ESP-Miner), [M45-goPool](https://github.com/Distortions81/M45-goPool) ([Pool](https://m45core.com/)), [M45-Gamma-Firmware](https://github.com/Distortions81/M45-Gamma-Firmware) ([Flasher](https://distortions81.github.io/M45-Gamma-Firmware/)), [M45-Core-Firmware](https://github.com/Distortions81/M45-Core-Firmware) ([Flasher](https://distortions81.github.io/M45-Core-Firmware/)), [DaVinci-Resolve-Container](https://github.com/Distortions81/DaVinci-Resolve-Container), [Canon-Webcam-Linux](https://github.com/Distortions81/Canon-Webcam-Linux), [PCB-Frame](https://github.com/Distortions81/PCB-Frame), [IrPowerOn](https://github.com/Distortions81/IrPowerOn), [go-smartwatch](https://github.com/Distortions81/go-smartwatch) |
+| Hardware, firmware, and infrastructure | [TangMiner](https://github.com/Distortions81/TangMiner), [ESP-Miner](https://github.com/Distortions81/ESP-Miner), [M45-goPool](https://github.com/M45Core/M45-goPool) ([Pool](https://m45core.com/)), [M45-Gamma-Firmware](https://github.com/M45Core/M45-Gamma-Firmware) ([Flasher](https://distortions81.github.io/M45-Gamma-Firmware/)), [M45-Core-Firmware](https://github.com/M45Core/M45-Core-Firmware) ([Flasher](https://distortions81.github.io/M45-Core-Firmware/)), [DaVinci-Resolve-Container](https://github.com/Distortions81/DaVinci-Resolve-Container), [Canon-Webcam-Linux](https://github.com/Distortions81/Canon-Webcam-Linux), [PCB-Frame](https://github.com/Distortions81/PCB-Frame), [IrPowerOn](https://github.com/Distortions81/IrPowerOn), [go-smartwatch](https://github.com/Distortions81/go-smartwatch) |
 | Engines, clients, and interactive tools | [GD-DOOM](https://github.com/Distortions81/GD-DOOM) ([Play](https://m45sci.xyz/u/dist/GD-DOOM/)), [GD-WOLF](https://github.com/Distortions81/GD-WOLF) ([Play](https://m45sci.xyz/u/dist/GD-WOLF/)), [goThoom](https://github.com/Distortions81/goThoom), [ClanLordClient](https://github.com/Distortions81/ClanLordClient), [ONI-SeedView](https://github.com/Distortions81/ONI-SeedView) ([View](https://m45sci.xyz/u/dist/oni-view/view.html?coord=SNDST-A-1-0-0-0)), [FactorioMapWebUI](https://github.com/Distortions81/FactorioMapWebUI), [PixelPirates](https://github.com/Distortions81/PixelPirates), [GoblinSiege](https://github.com/Distortions81/GoblinSiege), [Withera](https://github.com/Distortions81/Withera), [GoMUD2](https://github.com/Distortions81/GoMUD2), [goMMO](https://github.com/Distortions81/goMMO) / [goMMOServ](https://github.com/Distortions81/goMMOServ), [goMarketMadness](https://github.com/Distortions81/goMarketMadness) / [Market-Madness-TI99](https://github.com/Distortions81/Market-Madness-TI99) |
 | Libraries, audio, and data experiments | [EUI](https://github.com/Distortions81/EUI) ([Demo](https://m45sci.xyz/u/dist/eui/)), [ImpSynth](https://github.com/Distortions81/ImpSynth), [GoBeep86](https://github.com/Distortions81/GoBeep86), [go-g726](https://github.com/Distortions81/go-g726), [go-meltysynth](https://github.com/Distortions81/go-meltysynth), [numfmt](https://github.com/Distortions81/numfmt), [goXA](https://github.com/Distortions81/goXA), [Acoustic-Space-Rendering](https://github.com/Distortions81/Acoustic-Space-Rendering), [OpenCLFrac](https://github.com/Distortions81/OpenCLFrac) / [golang-frac](https://github.com/Distortions81/golang-frac), [BlazorWebBluetoothDemo](https://github.com/Distortions81/BlazorWebBluetoothDemo), [GoRecoverBlurText](https://github.com/Distortions81/GoRecoverBlurText), [SenseNova-U1](https://github.com/Distortions81/SenseNova-U1), [StrangeAttractors](https://github.com/Distortions81/StrangeAttractors) |
 | [M45-Science Factorio operations](https://github.com/M45-Science) | [ChatWire](https://github.com/M45-Science/ChatWire), [SoftMod](https://github.com/M45-Science/SoftMod), [FactorioServerBrowser](https://github.com/M45-Science/FactorioServerBrowser), [DownloadProxy](https://github.com/M45-Science/DownloadProxy), [FactBanSync](https://github.com/M45-Science/FactBanSync), [FactorioCommunityList](https://github.com/M45-Science/FactorioCommunityList), [MapSettings](https://github.com/M45-Science/MapSettings), [LiveLog](https://github.com/M45-Science/LiveLog), [MapArchiveCleaner](https://github.com/M45-Science/MapArchiveCleaner), [RelayClient](https://github.com/M45-Science/RelayClient) / [RelayUpdater](https://github.com/M45-Science/RelayUpdater), [RoleBot](https://github.com/M45-Science/RoleBot) / [HelpBot](https://github.com/M45-Science/HelpBot) |
