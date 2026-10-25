@@ -37,7 +37,6 @@ These projects are described here without repository links.
 | Project | Focus |
 | --- | --- |
 | **BatteryMesh** | ESP32/ESP-NOW store-and-forward battery telemetry across sensor, relay, gateway, and bridge roles. Includes BLE and self-hosted web dashboards, current measurement, and capacity tracking. |
-| **ProtonSync** | An upload-first Proton Drive sync helper for Linux, combining inotify watching, file-stability checks, hashed state, a terminal UI, and explicit safety modes. |
 | **Facility38** | A factory-building game and massively parallel simulation proof of concept, exploring production, logistics, resource flows, and interacting systems at scale. |
 | **PoolCensus, goBitaxeRemote & related Bitcoin tooling** | Private tools for pool measurement, miner management, data inspection, and operations, alongside experiments such as ScriptSigSearch, stratum-binary-batch, and bitgraph. |
 | **FactModDatDecode & relayServer** | Supporting Factorio tooling for mod-data decoding and server infrastructure. |
