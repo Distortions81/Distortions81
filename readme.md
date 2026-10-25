@@ -32,7 +32,6 @@ These projects are described here without repository links.
 | **VectorFPGA** | A 3D vector interpretation of Doom, with a framebufferless Tang Mega 138K renderer. One atomic UART-fed vector list drives either 720p HDMI or analog X/Y output for an oscilloscope. |
 | **TMX9999-FPGA** | TMS9900-compatible soft CPU and SoC work, including HDMI text and graphics, a UART monitor, flash-loaded firmware, and compiled BASIC bring-up. |
 | **TangSHA256 / TangScrypt** | FPGA hashing experiments: a standalone Verilog SHA-256d scanner with a Go host, and a SpinalHDL Scrypt ROMix accelerator with on-chip scratchpads. SHA-256d results are simulation- and timing-tested; hardware validation remains separate. |
-| **TangMiner** | Tang Nano FPGA Bitcoin hash engine in SpinalHDL/Scala, paired with a host Stratum client and strict real-hardware nonce validation. |
 | **LM32-FPGA** | An attempt to build a fast, binary-compatible LatticeMico32 implementation, wrapped in a small SoC with RAM, UART, LED I/O, HDMI, flash storage, and benchmark tooling. |
 
 ### UI toolkit
