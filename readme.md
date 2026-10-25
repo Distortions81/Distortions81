@@ -30,7 +30,14 @@ These projects are described here without repository links.
 | **FocusTerm** | A Tang Nano 20K hardware terminal with a shared 80×24 display pipeline, multiple FPGA video targets, and an optional ESP32 companion for SSH and SPI connectivity. |
 | **VectorFPGA** | A 3D vector interpretation of Doom, with a framebufferless Tang Mega 138K renderer. One atomic UART-fed vector list drives either 720p HDMI or analog X/Y output for an oscilloscope. |
 | **TMX9999-FPGA** | TMS9900-compatible soft CPU and SoC work, including HDMI text and graphics, a UART monitor, flash-loaded firmware, and compiled BASIC bring-up. |
+| **TangMiner** | Tang Nano FPGA Bitcoin hash engine in SpinalHDL/Scala, paired with a host Stratum client and strict real-hardware nonce validation. |
 | **LM32-FPGA** | An attempt to build a fast, binary-compatible LatticeMico32 implementation, wrapped in a small SoC with RAM, UART, LED I/O, HDMI, flash storage, and benchmark tooling. |
+
+### UI toolkit
+
+| Project | Focus |
+| --- | --- |
+| **EUI** | Retained-mode Ebiten UI library with windows, flows, widgets, themes, scaling, debug overlays, and touch support. |
 
 ### Infrastructure, embedded systems & simulation
 
@@ -53,12 +60,16 @@ These are useful entry points into the parts of my work available publicly.
 | Project | What it does |
 | --- | --- |
 | [GD-DOOM](https://github.com/Distortions81/GD-DOOM) | A Doom engine and source port written in Go for desktop and browser. GPU drawing preserves the software-rendered appearance, with classic and modern presentation, WAD loading, saves, demos, and FM, SoundFont, or PC speaker audio. [Play](https://m45sci.xyz/u/dist/GD-DOOM/) |
+| [GD-WOLF](https://github.com/Distortions81/GD-WOLF) | Wolfenstein 3D-style engine in Go with software raycasting, save previews, browser persistence, spatial audio, and selectable render modes. [Play](https://m45sci.xyz/u/dist/GD-WOLF/) |
 | [goThoom](https://github.com/Distortions81/goThoom) | A modern Windows, macOS, and Linux client for the classic Clan Lord MMORPG. Includes modern rendering and audio, session recording and playback, legacy macros, Go scripting, and optional text-to-speech. [Website & downloads](https://gothoom.m45sci.xyz/) |
 | [goPine](https://github.com/Distortions81/goPineTime) | PineTime smartwatch firmware written in Go with TinyGo. Features clocks, alarms, timers, persistent settings, Bluetooth notifications and music controls, and firmware updates with on-watch confirmation and rollback. An active developer project, with battery runtime still being evaluated. |
 | [M45-goPool](https://github.com/M45Core/M45-goPool) | A solo Bitcoin mining pool written from scratch in Go, integrating directly with Bitcoin Core over RPC/ZMQ. Includes Stratum/TLS, worker telemetry, a status dashboard and APIs, operational safeguards, and reproducible benchmarks. [Pool](https://m45core.com/) |
 | [StratumStats](https://github.com/M45Core/StratumStats) | Mining-pool observability based on regional Stratum observations: block-template delivery, median and P95 delay, availability, connection timing, TLS, and coinbase-derived fee evidence. Raw observations remain independently recomputable. [Dashboard](https://stratumstats.m45core.com/) |
 | [M45-Gamma-Firmware](https://github.com/M45Core/M45-Gamma-Firmware) | ESP32-S3 firmware for Bitaxe Gamma 602 miners. Combines weighted multi-pool share splitting, ordered backup pools, a live dashboard, web updates, hardware diagnostics, and safety controls. |
 | [ChatWire](https://github.com/M45-Science/ChatWire) | Factorio server management and Discord integration, covering chat bridging, moderation, process lifecycle control, updates, player databases, and shared multi-instance deployments. |
+| [M45-Core-Firmware](https://github.com/M45Core/M45-Core-Firmware) | Classic ESP32 mining firmware with Stratum, hardware SHA candidate loops, a display UI, local setup, statistics, and settings pages. |
+| [StratumScout](https://github.com/M45Core/StratumScout) | Regional measurement probes for StratumStats, performing bounded Stratum observations and uploading authenticated batches without submitting shares. |
+| [GoMUD2](https://github.com/Distortions81/GoMUD2) | Go MUD server with telnet, optional TLS, ANSI rendering, in-game world editing, and player, builder, and administrator roles. |
 | [FactMapGen](https://github.com/M45-Science/FactMapGen) | A Go web editor for Factorio map-generation settings. Includes seeded previews for Nauvis and Space Age planets, exact Factorio rendering, guest workspaces, and authenticated, audited presets. [Try it](https://mapgen.m45sci.xyz/) |
 
 ## Project snapshots
@@ -165,15 +176,12 @@ ChatWire and FactMapGen are two parts of that wider stack.
 [Community website](https://m45sci.xyz/)
 
 **[M45Core](https://github.com/M45Core)** brings together my Bitcoin mining
-software, firmware, and observability work. Alongside goPool, Gamma firmware,
-and StratumStats, it includes
-[M45-Core-Firmware](https://github.com/M45Core/M45-Core-Firmware) for classic ESP32
-mining hardware and [StratumScout](https://github.com/M45Core/StratumScout) for
-distributed regional measurements.
+software, firmware, and observability work. Its projects cover pool servers,
+ESP32 and ASIC miner firmware, and distributed regional measurement.
 
 ## More public work
 
-- **Engines & games:** [GD-WOLF](https://github.com/Distortions81/GD-WOLF), [GoMUD2](https://github.com/Distortions81/GoMUD2), [PixelPirates](https://github.com/Distortions81/PixelPirates), and [GoblinSiege](https://github.com/Distortions81/GoblinSiege).
+- **Games:** [PixelPirates](https://github.com/Distortions81/PixelPirates) and [GoblinSiege](https://github.com/Distortions81/GoblinSiege).
 - **Audio & libraries:** [go-meltysynth](https://github.com/Distortions81/go-meltysynth), [ImpSynth](https://github.com/Distortions81/ImpSynth), [GoBeep86](https://github.com/Distortions81/GoBeep86), [go-g726](https://github.com/Distortions81/go-g726), and [goXA](https://github.com/Distortions81/goXA).
 - **Linux & practical tools:** [DaVinci-Resolve-Container](https://github.com/Distortions81/DaVinci-Resolve-Container), [Canon-Webcam-Linux](https://github.com/Distortions81/Canon-Webcam-Linux), and [PCB-Frame](https://github.com/Distortions81/PCB-Frame).
 - **Math & visualization:** [OpenCLFrac](https://github.com/Distortions81/OpenCLFrac), [golang-frac](https://github.com/Distortions81/golang-frac), and [StrangeAttractors](https://github.com/Distortions81/StrangeAttractors).
