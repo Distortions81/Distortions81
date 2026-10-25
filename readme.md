@@ -63,40 +63,94 @@ These are useful entry points into the parts of my work available publicly.
 
 ## Project snapshots
 
-A few views from the public and private work above.
+Snapshots from across my public and private projects. Private projects are shown without repository links.
 
 <table>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="20%">
       <a href="https://github.com/Distortions81/GD-DOOM">
-        <img src="assets/project-thumbnails/gd-doom.png" alt="GD-DOOM gameplay" width="240"><br>
-        <sub>GD-DOOM · public</sub>
+        <img src="assets/project-thumbnails/gd-doom.png" alt="GD-DOOM gameplay thumbnail" width="150"><br>
+        <sub>GD-DOOM</sub>
       </a>
     </td>
-    <td align="center" width="33%">
-      <img src="assets/project-thumbnails/encore-4a.png" alt="Encore-4A sidecar VDP output" width="240"><br>
-      <sub>Encore-4A · private</sub>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/GD-WOLF">
+        <img src="assets/project-thumbnails/gd-wolf.png" alt="GD-WOLF gameplay thumbnail" width="150"><br>
+        <sub>GD-WOLF</sub>
+      </a>
     </td>
-    <td align="center" width="33%">
-      <img src="assets/project-thumbnails/project-retrace.png" alt="Project-Retrace MC68000 monitor" width="240"><br>
-      <sub>Project-Retrace · private</sub>
+    <td align="center" width="20%">
+      <a href="https://github.com/M45Core/M45-goPool">
+        <img src="assets/project-thumbnails/m45-gopool.png" alt="M45-goPool dashboard thumbnail" width="150"><br>
+        <sub>M45-goPool</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/M45Core/M45-Core-Firmware">
+        <img src="assets/project-thumbnails/m45-core-firmware.png" alt="M45-Core-Firmware stats thumbnail" width="150"><br>
+        <sub>M45-Core-Firmware</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/goThoom">
+        <img src="assets/project-thumbnails/gothoom.png" alt="goThoom client thumbnail" width="150"><br>
+        <sub>goThoom</sub>
+      </a>
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <a href="https://github.com/Distortions81/goThoom">
-        <img src="assets/project-thumbnails/gothoom.png" alt="goThoom game client" width="240"><br>
-        <sub>goThoom · public</sub>
+    <td align="center" width="20%">
+      <a href="https://github.com/M45-Science/ChatWire">
+        <img src="assets/project-thumbnails/chatwire.png" alt="ChatWire logo thumbnail" width="150"><br>
+        <sub>ChatWire</sub>
       </a>
     </td>
-    <td align="center">
-      <img src="assets/project-thumbnails/vectorfpga.png" alt="VectorFPGA Doom vector rendering" width="240"><br>
-      <sub>VectorFPGA · private</sub>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/ONI-SeedView">
+        <img src="assets/project-thumbnails/oni-seedview.png" alt="ONI-SeedView map thumbnail" width="150"><br>
+        <sub>ONI-SeedView</sub>
+      </a>
     </td>
-    <td align="center">
-      <a href="https://github.com/M45Core/M45-goPool">
-        <img src="assets/project-thumbnails/m45-gopool.png" alt="M45-goPool dashboard" width="240"><br>
-        <sub>M45-goPool · public</sub>
+    <td align="center" width="20%">
+        <img src="assets/project-thumbnails/eui.png" alt="EUI demo thumbnail" width="150"><br>
+        <sub>EUI</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Distortions81/PixelPirates">
+        <img src="assets/project-thumbnails/pixelpirates.png" alt="PixelPirates gameplay thumbnail" width="150"><br>
+        <sub>PixelPirates</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/M45-Science/FactMapGen">
+        <img src="assets/project-thumbnails/factmapgen.png" alt="FactMapGen editor and map preview thumbnail" width="150"><br>
+        <sub>FactMapGen</sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="assets/project-thumbnails/encore-4a.png" alt="Encore-4A sidecar VDP shadow output thumbnail" width="150"><br>
+      <sub>Encore-4A</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="assets/project-thumbnails/project-retrace.png" alt="Project-Retrace MC68000 monitor thumbnail" width="150"><br>
+      <sub>Project-Retrace</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="assets/project-thumbnails/vectorfpga.png" alt="VectorFPGA 3D Doom vector-rendering thumbnail" width="150"><br>
+      <sub>VectorFPGA</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/M45Core/M45-Gamma-Firmware">
+        <img src="assets/project-thumbnails/m45-gamma-firmware.png" alt="M45-Gamma-Firmware dashboard thumbnail" width="150"><br>
+        <sub>M45-Gamma-Firmware</sub>
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/M45Core/StratumStats">
+        <img src="assets/project-thumbnails/stratumstats.png" alt="StratumStats Bitcoin mining-pool performance dashboard" width="150"><br>
+        <sub>StratumStats</sub>
       </a>
     </td>
   </tr>
