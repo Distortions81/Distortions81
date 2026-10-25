@@ -26,10 +26,12 @@ These projects are described here without repository links.
 | Project | Focus |
 | --- | --- |
 | **Encore-4A** | A passive TI-99/4A side-port snooper for the Tang Nano 20K. It reconstructs VDP and PSG state to produce HDMI video and audio, with emulator-fed replay support for development and comparison. |
+| **RetraceGPU** | Quake-oriented FPGA graphics system for the Tang Console Neo, splitting game and geometry work on an Andes CPU from FPGA rasterization, depth, textures, lighting, and display output. Active renderer and memory-system development. |
 | **Project-Retrace** | A modern retrocomputing platform built around the Tang Console 138K. It combines an in-tree MC68000-compatible soft CPU, 720p HDMI text and packed framebuffers, flash-loaded applications, and BL616 USB input. The goal is an understandable system with modern conveniences. |
 | **FocusTerm** | A Tang Nano 20K hardware terminal with a shared 80×24 display pipeline, multiple FPGA video targets, and an optional ESP32 companion for SSH and SPI connectivity. |
 | **VectorFPGA** | A 3D vector interpretation of Doom, with a framebufferless Tang Mega 138K renderer. One atomic UART-fed vector list drives either 720p HDMI or analog X/Y output for an oscilloscope. |
 | **TMX9999-FPGA** | TMS9900-compatible soft CPU and SoC work, including HDMI text and graphics, a UART monitor, flash-loaded firmware, and compiled BASIC bring-up. |
+| **TangSHA256 / TangScrypt** | FPGA hashing experiments: a standalone Verilog SHA-256d scanner with a Go host, and a SpinalHDL Scrypt ROMix accelerator with on-chip scratchpads. SHA-256d results are simulation- and timing-tested; hardware validation remains separate. |
 | **TangMiner** | Tang Nano FPGA Bitcoin hash engine in SpinalHDL/Scala, paired with a host Stratum client and strict real-hardware nonce validation. |
 | **LM32-FPGA** | An attempt to build a fast, binary-compatible LatticeMico32 implementation, wrapped in a small SoC with RAM, UART, LED I/O, HDMI, flash storage, and benchmark tooling. |
 
@@ -43,15 +45,13 @@ These projects are described here without repository links.
 
 | Project | Focus |
 | --- | --- |
+| **BTCFlux** | A low-latency Bitcoin block-relay overlay with regional peers, compact-block transport, forward error correction, and a gateway to unmodified Bitcoin Core. Core retains block validation responsibility. |
+| **Scout T1** | ESP32/MCP9808 temperature telemetry over ESP-NOW, with relays, an ESP32-S3 BLE gateway, and browser trends and history. Firmware and UI development are ahead of full hardware validation. |
 | **BatteryMesh** | ESP32/ESP-NOW store-and-forward battery telemetry across sensor, relay, gateway, and bridge roles. Includes BLE and self-hosted web dashboards, current measurement, and capacity tracking. |
 | **Facility38** | A factory-building game and massively parallel simulation proof of concept, exploring production, logistics, resource flows, and interacting systems at scale. |
 | **PoolCensus, goBitaxeRemote & related Bitcoin tooling** | Private tools for pool measurement, miner management, data inspection, and operations, alongside experiments such as ScriptSigSearch, stratum-binary-batch, and bitgraph. |
 | **FactModDatDecode & relayServer** | Supporting Factorio tooling for mod-data decoding and server infrastructure. |
-| **LumenClay, Void-Colony, Shellworld & Network-Sim** | Experiments in simulation, MUDs, terminal games, and connected systems. |
-
-Other private experiments include forward error correction, compression,
-image/QR handling, audio, and modeling through projects such as **GFEC**,
-**chatCompress**, **QR-Img**, **ottoWave**, **ottoWave2**, and **dm_bias_fit**.
+| **EvoLife** | Go ecosystem simulation with inherited traits, sensory motor networks, mutation, feeding guilds, and inspectable lineage and population history. Browser and native Ebitengine views share checkpoint-based experiments. |
 
 ## Selected public projects
 
@@ -62,6 +62,7 @@ These are useful entry points into the parts of my work available publicly.
 | [GD-DOOM](https://github.com/Distortions81/GD-DOOM) | A Doom engine and source port written in Go for desktop and browser. GPU drawing preserves the software-rendered appearance, with classic and modern presentation, WAD loading, saves, demos, and FM, SoundFont, or PC speaker audio. [Play](https://m45sci.xyz/u/dist/GD-DOOM/) |
 | [GD-WOLF](https://github.com/Distortions81/GD-WOLF) | Wolfenstein 3D-style engine in Go with software raycasting, save previews, browser persistence, spatial audio, and selectable render modes. [Play](https://m45sci.xyz/u/dist/GD-WOLF/) |
 | [goThoom](https://github.com/Distortions81/goThoom) | A modern Windows, macOS, and Linux client for the classic Clan Lord MMORPG. Includes modern rendering and audio, session recording and playback, legacy macros, Go scripting, and optional text-to-speech. [Website & downloads](https://gothoom.m45sci.xyz/) |
+| [EvenAudio](https://github.com/Distortions81/EvenAudio) | Linux desktop audio compressor with seven-band, stereo-linked processing, optional voice leveling, a C audio engine, and a Python/Tk interface for PulseAudio or PipeWire. |
 | [goPine](https://github.com/Distortions81/goPineTime) | PineTime smartwatch firmware written in Go with TinyGo. Features clocks, alarms, timers, persistent settings, Bluetooth notifications and music controls, and firmware updates with on-watch confirmation and rollback. An active developer project, with battery runtime still being evaluated. |
 | [M45-goPool](https://github.com/M45Core/M45-goPool) | A solo Bitcoin mining pool written from scratch in Go, integrating directly with Bitcoin Core over RPC/ZMQ. Includes Stratum/TLS, worker telemetry, a status dashboard and APIs, operational safeguards, and reproducible benchmarks. [Pool](https://m45core.com/) |
 | [StratumStats](https://github.com/M45Core/StratumStats) | Mining-pool observability based on regional Stratum observations: block-template delivery, median and P95 delay, availability, connection timing, TLS, and coinbase-derived fee evidence. Raw observations remain independently recomputable. [Dashboard](https://stratumstats.m45core.com/) |
